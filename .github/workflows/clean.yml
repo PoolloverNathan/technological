@@ -21,13 +21,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Set authorship
-        run: |
-          git config user.name "CCleaner"
       - name: Checkout
         uses: actions/checkout@v2
         with:
           ref: devel
+        
+      - name: Set authorship
+        run: |
+          git config user.name "CCleaner"
 
       - name: Delete old clean branch
         run: git branch -D clean
