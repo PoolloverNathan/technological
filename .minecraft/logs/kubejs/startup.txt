@@ -1,0 +1,6 @@
+[15:12:54] [INFO] Hello, World! (You will only see this line once in console, during startup)
+[15:12:54] [INFO] Loaded script startup_scripts:script.js in 0.278 s
+[15:12:54] [INFO] Loaded 1/1 KubeJS startup scripts in 0.851 s
+[15:13:37] [ERR ] Error occurred while handling event 'item.modification': TypeError: Cannot find function displayName in object 'refinedstorage:network_card'. (startup_scripts:script.js#6)
+[15:23:50] [ERR ] Error occurred while handling event 'item.modification': TypeError: Cannot find function displayName in object 'refinedstorage:network_card'. (startup_scripts:script.js#6)
+[15:24:01] [ERR ] Error occurred while handling event 'item.modification': TypeError: Cannot find function displayName in object 'refinedstorage:network_card'. (startup_scripts:script.js#6)

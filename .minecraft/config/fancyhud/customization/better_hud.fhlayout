@@ -1,0 +1,21 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+}
+
+customization {
+  action = editplayerfoodbar
+  hidewhenfull = true
+}
+
+customization {
+  action = editplayerhealthbar
+  hidewhenfull = true
+}
+
+customization {
+  action = editarmorbar
+  hidewhenempty = true
+}
+

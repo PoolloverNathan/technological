@@ -1,0 +1,180 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = uiassets/title.png
+  orientation = mid-centered
+  x = -303
+  width = 605
+  action = addtexture
+  actionid = 8e90116f-bfd4-44d2-b521-7e0d5d8aeaf71626813211403
+  y = -163
+  height = 327
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -25
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=400322%
+  width = 50
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = uiassets/blank.png
+  backgroundnormal = uiassets/blank.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -37
+  action = movebutton
+  y = 12
+}
+
+customization {
+  identifier = %id=400298%
+  width = 73
+  action = resizebutton
+  height = 14
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = uiassets/blank.png
+  backgroundnormal = uiassets/blank.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -20
+  action = movebutton
+  y = 41
+}
+
+customization {
+  identifier = %id=400382%
+  width = 40
+  action = resizebutton
+  height = 14
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = uiassets/blank.png
+  backgroundnormal = uiassets/blank.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -32
+  action = movebutton
+  y = 85
+}
+
+customization {
+  identifier = %id=502382%
+  width = 64
+  action = resizebutton
+  height = 13
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = uiassets/blank.png
+  backgroundnormal = uiassets/blank.png
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = 755b110d-e07a-42bf-a16d-e23a2dd7cfea1626873310950
+  y = 10
+  scale = 1.0
+  alignment = left
+  value = Minceraft %mcversion%-forge%version:forge%§nchicken
+}
+
