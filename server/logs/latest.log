@@ -1,0 +1,28 @@
+[09Jul2021 07:47:34.712] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[09Jul2021 07:47:34.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Jul2021 07:47:34.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Jul2021 07:47:34.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Jul2021 07:47:34.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:overworld world'/minecraft:overworld
+[09Jul2021 07:47:35.044] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Jul2021 07:47:35.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:the_nether world'/minecraft:the_nether
+[09Jul2021 07:47:35.051] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Jul2021 07:47:35.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:the_end world'/minecraft:the_end
+[09Jul2021 07:47:35.057] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Jul2021 07:47:35.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 world'/immersive_portals:alternate1
+[09Jul2021 07:47:35.068] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[09Jul2021 07:47:35.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 world'/immersive_portals:alternate2
+[09Jul2021 07:47:35.076] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[09Jul2021 07:47:35.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 world'/immersive_portals:alternate3
+[09Jul2021 07:47:35.088] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[09Jul2021 07:47:35.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 world'/immersive_portals:alternate4
+[09Jul2021 07:47:35.096] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[09Jul2021 07:47:35.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 world'/immersive_portals:alternate5
+[09Jul2021 07:47:35.099] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[09Jul2021 07:47:35.189] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Jul2021 07:47:35.205] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Jul2021 07:47:35.207] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Jul2021 07:47:35.207] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[09Jul2021 07:47:35.208] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[09Jul2021 07:47:35.213] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[09Jul2021 07:47:35.216] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[09Jul2021 07:47:35.224] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved

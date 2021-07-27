@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ magenta_glazed_terracotta[facing=south] run tp ~ ~ ~0.1

@@ -1,0 +1,28 @@
+[17:06:20.437][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[17:06:22.178][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'crafttweaker' at version '7.1.0.347'
+'immersiveengineering' at version '1.16.5-5.0.0-135'
+'tconstruct' at version '3.0.4.197'
+[17:06:24.236][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[17:07:19.899][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[17:07:21.703][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[17:08:19.339][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[17:08:19.505][DONE][CLIENT][INFO] Loading file: disable.zs
+[17:08:19.506][DONE][CLIENT][INFO] Loading file: tconstruct.zs
+[17:08:19.534][DONE][CLIENT][ERROR] disable.zs:6:2 disable.zs:6:2: No compatible methods found!
+[17:08:19.534][DONE][CLIENT][ERROR] Scripts are invalid!
+[17:08:19.535][DONE][CLIENT][INFO] Finished loading Scripts!
+[17:08:19.538][DONE][CLIENT][INFO] This reload was made possible by Jams and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[17:08:28.895][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[17:08:28.972][DONE][CLIENT][INFO] Loading file: disable.zs
+[17:08:28.972][DONE][CLIENT][INFO] Loading file: tconstruct.zs
+[17:08:28.982][DONE][CLIENT][ERROR] disable.zs:6:2 disable.zs:6:2: No compatible methods found!
+[17:08:28.983][DONE][CLIENT][ERROR] Scripts are invalid!
+[17:08:28.986][DONE][CLIENT][INFO] Finished loading Scripts!
+[17:08:28.987][DONE][CLIENT][INFO] This reload was made possible by Otakup0pe and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[17:08:44.990][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[17:08:45.050][DONE][CLIENT][INFO] Loading file: disable.zs
+[17:08:45.051][DONE][CLIENT][INFO] Loading file: tconstruct.zs
+[17:08:45.060][DONE][CLIENT][ERROR] disable.zs:6:2 disable.zs:6:2: No compatible methods found!
+[17:08:45.060][DONE][CLIENT][ERROR] Scripts are invalid!
+[17:08:45.061][DONE][CLIENT][INFO] Finished loading Scripts!

@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "transitionalItem": {
+    "item": "kubejs:incomplete_wand_of_symmetry"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_wand_of_symmetry"
+        },
+        {
+          "tag": forge:ingots/brass"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_wand_of_symmetry"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_wand_of_symmetry"
+        },
+        {
+          "item": "create:refined_radience"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_wand_of_symmetry"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_wand_of_symmetry"
+        },
+        {
+          "tag": "forge:glass_panes/white"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_wand_of_symmetry"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:_wand_of_symmetry",
+      "count": 1
+    }
+  ],
+  "loops": 2
+}

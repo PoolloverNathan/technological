@@ -1,0 +1,261 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+}
+
+customization {
+  orientation = bottom-right
+  x = 0
+  action = edithotbar
+  y = 0
+}
+
+customization {
+  orientation = bottom-left
+  visible = false
+  x = 5
+  action = editexperiencebar
+  y = -83
+}
+
+customization {
+  orientation = bottom-centered
+  x = -1
+  action = edittitle
+  y = -101
+}
+
+customization {
+  orientation = bottom-centered
+  x = 1
+  action = editsubtitle
+  y = -80
+}
+
+customization {
+  orientation = bottom-right
+  x = -217
+  action = editselecteditemname
+  y = -7
+}
+
+customization {
+  orientation = bottom-left
+  visible = false
+  x = 548
+  fireevents = false
+  action = editplayerhealthbar
+  y = -110
+  hidewhenfull = true
+}
+
+customization {
+  orientation = bottom-left
+  visible = false
+  x = 50
+  action = editplayerfoodbar
+  y = -18
+  hidewhenfull = true
+}
+
+customization {
+  orientation = bottom-right
+  visible = false
+  x = -59
+  action = editarmorbar
+  y = -40
+  alignment = right
+  hidewhenempty = true
+}
+
+customization {
+  orientation = bottom-right
+  visible = false
+  x = -60
+  action = editairbar
+  y = -29
+}
+
+customization {
+  orientation = bottom-right
+  x = -22
+  action = addmirroredplayer
+  actionid = 7819a918-b682-41a0-952f-144b799386261626874920918
+  y = -21
+  scale = 30.0
+  rotateplayer = false
+  headrotationy = 0.0
+  headrotationx = 180.0
+  bodyrotationx = 180.0
+  bodyrotationy = 0.0
+}
+
+customization {
+  vr:showif:activeitemname = true
+  orientation = bottom-left
+  vr:value:activeitemname = kubejs:vitals_monitor
+  x = 0
+  width = 100
+  y = 0
+  action = addcustomhealthbar
+  height = 20
+  direction = right
+  barcolor = #ff0000
+  backgroundcolor = #880000
+  hidewhenfull = false
+}
+
+customization {
+  orientation = bottom-left
+  barcolor = #ffff00
+  backgroundcolor = #888800
+  vr:showif:activeitemname = true
+  vr:value:activeitemname = kubejs:vitals_monitor
+  x = 0
+  width = 100
+  y = -40
+  action = addcustomfoodbar
+  maxfood = 20
+  height = 20
+  direction = right
+  hidewhenfull = false
+}
+
+customization {
+  orientation = bottom-left
+  hidewhenempty = false
+  barcolor = #888888
+  backgroundcolor = #444444
+  vr:showif:activeitemname = true
+  vr:value:activeitemname = kubejs:vitals_monitor
+  maxarmor = 40
+  x = 0
+  width = 100
+  y = -20
+  action = addcustomarmorbar
+  height = 20
+  direction = right
+}
+
+customization {
+  vr:showif:activeitemname = true
+  orientation = bottom-left
+  vr:value:activeitemname = kubejs:vitals_monitor
+  x = 100
+  width = 100
+  y = 0
+  action = addcustomairbar
+  height = 20
+  direction = right
+  barcolor = #00ffff
+  backgroundcolor = #008888
+  hidewhenfull = false
+}
+
+customization {
+  orientation = top-left
+  x = 759
+  width = 20
+  y = 453
+  action = addcustomexpbar
+  backgroundtexture = uiassets/blank.png
+  height = 20
+  direction = up
+  barcolor = #7eff47
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  orientation = bottom-left
+  x = 123
+  width = 100
+  y = -226
+  action = addcustommounthealthbar
+  height = 20
+  direction = right
+  barcolor = #fc5142
+  backgroundcolor = #5c5c5c80
+  hidewhenfull = false
+}
+
+customization {
+  orientation = top-left
+  x = 162
+  width = 100
+  y = 121
+  action = addcustommountjumpbar
+  height = 20
+  direction = right
+  barcolor = #bd34eb
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  scale = 1.0
+  rainbowendcolor1 = #00FF00
+  rainbowendcolor2 = #00FF00
+  x = -41
+  rainbowstartcolor2 = #00FF00
+  action = addtext
+  actionid = 29ed7469-2955-4d58-bf6e-b6fb11c3b7711626883746311
+  y = -67
+  rainbowstartcolor1 = #00FF00
+  alignment = left
+  value = §a%level%
+}
+
+customization {
+  itemid = tconstruct:creative_ability
+  renderstacksize = true
+  vr:showif:creative = true
+  orientation = bottom-left
+  renderdurability = true
+  x = 0
+  action = additemstack
+  actionid = db39e0bb-70c6-4faa-b3b9-e3f2c8fc91531626884774792
+  y = -61
+  scale = 1.0
+}
+
+customization {
+  itemid = minecraft:stone_pickaxe
+  renderstacksize = true
+  orientation = bottom-left
+  renderdurability = true
+  x = 0
+  vr:showif:survival = true
+  action = additemstack
+  actionid = c148bdaf-ddbe-4d55-bad4-af7b178688fa1626884779808
+  y = -61
+  scale = 1.0
+}
+
+customization {
+  itemid = minecraft:filled_map
+  renderstacksize = true
+  orientation = bottom-left
+  renderdurability = true
+  vr:showif:adventure = true
+  x = 0
+  action = additemstack
+  actionid = acd8c803-cf2a-4d75-a4eb-2b10ed857baf1626884780593
+  y = -61
+  scale = 1.0
+}
+
+customization {
+  itemid = minecraft:ender_eye
+  renderstacksize = true
+  orientation = bottom-left
+  renderdurability = true
+  vr:showif:spectator = true
+  x = 0
+  action = additemstack
+  actionid = fac3cd47-4e4b-45e1-9c72-14a0f254bcfe1626884781087
+  y = -61
+  scale = 1.0
+}
+
