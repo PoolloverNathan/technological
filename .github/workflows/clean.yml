@@ -30,12 +30,8 @@ jobs:
         run: |
           git config user.name "CCleaner"
 
-      - name: Delete old clean branch
-        run: git branch -D clean
-        continue-on-error: true
-
-      - name: Create new clean branch
-        run: git branch clean devel
+      - name: Reset clean branch
+        run: git branch -f clean devel
      
       - name: Delete personal files
         run: |
@@ -43,6 +39,9 @@ jobs:
           rm -rf server/*world
           rm -rf .minecraft/XaeroWaypoints*
           rm -rf {.minecraft,server}/{logs,crash-reports}
+      
+#      - name: Generate custom server world
+#        run: cp -r server/{worldt,world}
       
       - name: Generate commit
         run: |
