@@ -28,6 +28,7 @@ jobs:
 
       - name: Delete old clean branch
         run: git branch -D clean
+        continue-on-error: true
 
       - name: Create new clean branch
         run: git branch clean devel
