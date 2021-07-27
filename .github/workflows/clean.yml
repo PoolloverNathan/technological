@@ -48,5 +48,8 @@ jobs:
         run: |
           git add -A
           git commit -m "This is the clean branch. Commits here will be lost." -m "Commit to the devel branch to prevent change resetting."
-          
+      
+      - name: Push new commit
+        run: |
+          git push -u origin clean
           
