@@ -1,0 +1,23 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = bottom-left
+  buttonaction = opengui
+  x = 4
+  width = 100
+  actionid = eda64c9c-4854-44bb-b5cc-940fd96706c51627705059662
+  action = addbutton
+  y = -24
+  label = Mods (%loadedmods%)
+  value = net.minecraftforge.fml.client.gui.screen.ModListScreen
+  height = 20
+}
+

@@ -74,7 +74,7 @@
 	#[in Revolutions per Minute]
 	#Maximum allowed speed of a configurable motor.
 	#Range: > 64
-	maxMotorSpeed = 256
+	maxMotorSpeed = 1024
 	# 
 	#Game ticks between Kinetic Blocks checking whether their source is still valid.
 	#Range: > 5
@@ -97,7 +97,7 @@
 	#[in Revolutions per Minute]
 	#Maximum allowed rotation speed for any Kinetic Tile.
 	#Range: > 64
-	maxRotationSpeed = 256
+	maxRotationSpeed = 1024
 	# 
 	#Max Distance in blocks a Weighted Ejector can throw
 	#Range: > 0

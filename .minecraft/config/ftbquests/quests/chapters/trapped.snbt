@@ -1,0 +1,1203 @@
+{
+	id: "3B011DD2D958FAFA",
+	group: "",
+	order_index: 0,
+	filename: "trapped",
+	title: "Trapped",
+	icon: "kubejs:nothingness",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Trapped in Nothingness",
+			icon: {
+				id: "minecraft:ender_pearl",
+				Count: 1b,
+				tag: {
+					Enchantments: [{}]
+				}
+			},
+			x: 0.0d,
+			y: -3.0d,
+			subtitle: "What is this place?",
+			description: [""],
+			hide_dependency_lines: true,
+			hide: true,
+			size: 1.2d,
+			id: "4C79BDF40CA79413",
+			tasks: [{
+				id: "011E61D7C3263026",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Pebbles in the nothingness",
+			x: -1.0d,
+			y: -3.0d,
+			subtitle: "Wh- How?",
+			hide_dependency_lines: true,
+			dependencies: ["4C79BDF40CA79413"],
+			hide: true,
+			size: 1.2d,
+			id: "2B76EE2EDCF8A547",
+			tasks: [{
+				id: "6437AF6FE3A41068",
+				type: "item",
+				item: "kubejs:pebble"
+			}]
+		},
+		{
+			title: "Space is dirty",
+			x: 1.0d,
+			y: -3.0d,
+			subtitle: "Where did it come from?",
+			hide_dependency_lines: true,
+			dependencies: ["4C79BDF40CA79413"],
+			hide: true,
+			size: 1.2d,
+			id: "321F4B5E5A99B758",
+			tasks: [{
+				id: "6D040ECD2499108D",
+				type: "item",
+				item: "kubejs:dirt_dust"
+			}]
+		},
+		{
+			title: "Last bits of metal",
+			x: 0.0d,
+			y: -2.0d,
+			subtitle: "Definitely will be useful",
+			hide_dependency_lines: true,
+			dependencies: ["4C79BDF40CA79413"],
+			hide: true,
+			size: 1.2d,
+			id: "12191A8F5EFA8D4F",
+			tasks: [{
+				id: "55F4F6E0C5A783FE",
+				type: "item",
+				item: "kubejs:metal_chunk"
+			}],
+			rewards: [{
+				id: "58AD14119BD9147C",
+				type: "command",
+				title: "&aHint",
+				icon: "minecraft:book",
+				auto: "disabled",
+				command: '/tellraw @s {"text":"<PoolloverNathan> This quest gets more dependencies as you do more quests!","color":"green"}',
+				player_command: true
+			}]
+		},
+		{
+			title: "Yummy plant food",
+			x: 0.0d,
+			y: -4.0d,
+			subtitle: "I think this might bring them over here",
+			hide_dependency_lines: true,
+			dependencies: ["4C79BDF40CA79413"],
+			hide: true,
+			size: 1.2d,
+			id: "7EAD5983C3B4328E",
+			tasks: [{
+				id: "76DFBBCB6027BE7A",
+				type: "item",
+				item: "kubejs:overgrowth_fertilizer"
+			}]
+		},
+		{
+			title: "Saplings like plant food",
+			x: 1.0d,
+			y: -4.0d,
+			subtitle: "Therefore wood!",
+			hide_dependency_lines: true,
+			dependencies: ["7EAD5983C3B4328E"],
+			hide: true,
+			size: 1.2d,
+			id: "5B92C3F5B6F3F451",
+			tasks: [{
+				id: "6032D32487769DBE",
+				type: "item",
+				title: "Any Vanilla Sapling",
+				item: {
+					id: "itemfilters:and",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag",
+								Count: 1b,
+								tag: {
+									value: "minecraft:saplings"
+								}
+							},
+							{
+								id: "itemfilters:mod",
+								Count: 1b,
+								tag: {
+									value: "minecraft"
+								}
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Plank Time",
+			x: 1.0d,
+			y: -5.0d,
+			subtitle: "I want to craft...",
+			hide_dependency_lines: true,
+			dependencies: ["5B92C3F5B6F3F451"],
+			hide: true,
+			size: 1.2d,
+			id: "789A83EA4958214C",
+			tasks: [{
+				id: "57931E21F782F539",
+				type: "item",
+				title: "Any Vanilla Planks",
+				item: {
+					id: "itemfilters:and",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag",
+								Count: 1b,
+								tag: {
+									value: "minecraft:planks"
+								}
+							},
+							{
+								id: "itemfilters:mod",
+								Count: 1b,
+								tag: {
+									value: "minecraft"
+								}
+							},
+							{
+								id: "itemfilters:not",
+								Count: 1b,
+								tag: {
+									items: [{
+										id: "itemfilters:or",
+										Count: 1b,
+										tag: {
+											items: [
+												{
+													id: "minecraft:crimson_planks",
+													Count: 1b
+												},
+												{
+													id: "minecraft:warped_planks",
+													Count: 1b
+												}
+											]
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Nice table",
+			x: 1.0d,
+			y: -6.0d,
+			subtitle: "keep the items",
+			hide_dependency_lines: true,
+			dependencies: ["789A83EA4958214C"],
+			hide: true,
+			size: 1.2d,
+			id: "76D5F59DB0CC6518",
+			tasks: [{
+				id: "373D6D65C79F9876",
+				type: "item",
+				title: "Any Tinkers Crafting Station",
+				item: {
+					id: "itemfilters:and",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag",
+								Count: 1b,
+								tag: {
+									value: "tconstruct:tables"
+								}
+							},
+							{
+								id: "itemfilters:tag",
+								Count: 1b,
+								tag: {
+									value: "forge:workbenches"
+								}
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "0189940141246E39",
+				type: "item",
+				item: "jecalculation:item_calculator_craft"
+			}]
+		},
+		{
+			title: "Block of Pebbles",
+			x: -1.0d,
+			y: -2.0d,
+			subtitle: "For tools, of course!",
+			hide_dependency_lines: true,
+			dependencies: ["2B76EE2EDCF8A547"],
+			hide: true,
+			size: 1.2d,
+			id: "746B9C754F083BCF",
+			tasks: [{
+				id: "685768323376A5F3",
+				type: "item",
+				item: "minecraft:cobblestone"
+			}]
+		},
+		{
+			title: "Pile of Dirt",
+			x: 2.0d,
+			y: -3.0d,
+			subtitle: "It doesn't look like I can rummage in it, so maybe this isn't from Compact Claustrophobia.",
+			hide_dependency_lines: true,
+			dependencies: ["321F4B5E5A99B758"],
+			hide: true,
+			size: 1.2d,
+			id: "27F83E723DF989EF",
+			tasks: [{
+				id: "788B04B366307924",
+				type: "item",
+				item: "minecraft:dirt"
+			}]
+		},
+		{
+			title: "What's brown and sticky?",
+			x: 2.0d,
+			y: -4.0d,
+			subtitle: "A stick, of course!",
+			hide_dependency_lines: true,
+			dependencies: ["5B92C3F5B6F3F451"],
+			hide: true,
+			size: 1.2d,
+			id: "0F4A289268153340",
+			tasks: [{
+				id: "6A3AF36CB36DD005",
+				type: "item",
+				item: "minecraft:stick"
+			}]
+		},
+		{
+			title: "It's blank!",
+			x: 2.0d,
+			y: -5.0d,
+			subtitle: "How do I draw on it?",
+			hide_dependency_lines: true,
+			dependencies: [
+				"789A83EA4958214C",
+				"0F4A289268153340"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "47868AF17E7F3D28",
+			tasks: [{
+				id: "77CE19A3A66336DA",
+				type: "item",
+				item: "tconstruct:pattern"
+			}]
+		},
+		{
+			title: "No vanilla tools",
+			x: 2.0d,
+			y: -6.0d,
+			subtitle: "They faded out of existence a long time ago",
+			hide_dependency_lines: true,
+			dependencies: [
+				"47868AF17E7F3D28",
+				"76D5F59DB0CC6518"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "4647276E3EF1FA8C",
+			tasks: [{
+				id: "13630ACCE3384A4C",
+				type: "item",
+				title: "Any Tinker Station",
+				item: {
+					id: "itemfilters:id_regex",
+					Count: 1b,
+					tag: {
+						value: "tconstruct:tinker_station"
+					}
+				}
+			}]
+		},
+		{
+			title: "Box of Storage",
+			x: 3.0d,
+			y: -3.0d,
+			subtitle: "Need a space for the things from nothingness",
+			hide_dependency_lines: true,
+			dependencies: ["76D5F59DB0CC6518"],
+			hide: true,
+			size: 1.2d,
+			id: "5897625D7A716438",
+			tasks: [{
+				id: "61CB3CFAA9CEBC5D",
+				type: "item",
+				title: "Any Wooden Chest",
+				item: {
+					id: "itemfilters:and",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag",
+								Count: 1b,
+								tag: {
+									value: "forge:chests/wooden"
+								}
+							},
+							{
+								id: "itemfilters:not",
+								Count: 1b,
+								tag: {
+									items: [{
+										id: "itemfilters:tag",
+										Count: 1b,
+										tag: {
+											value: "minecraft:non_flammable_wood"
+										}
+									}]
+								}
+							},
+							{
+								id: "itemfilters:not",
+								Count: 1b,
+								tag: {
+									items: [{
+										id: "itemfilters:mod",
+										Count: 1b,
+										tag: {
+											value: "minecraft"
+										}
+									}]
+								}
+							},
+							{
+								id: "itemfilters:not",
+								Count: 1b,
+								tag: {
+									items: [{
+										id: "itemfilters:tag",
+										Count: 1b,
+										tag: {
+											value: "forge:chests/trapped"
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "The Buildinator",
+			x: 3.0d,
+			y: -6.0d,
+			subtitle: "For pieces of tools",
+			hide_dependency_lines: true,
+			dependencies: ["47868AF17E7F3D28"],
+			hide: true,
+			size: 1.2d,
+			id: "78C16CC57C2650DC",
+			tasks: [{
+				id: "1FA2BAF314666B5F",
+				type: "item",
+				title: "Any Part Builder",
+				item: {
+					id: "itemfilters:id_regex",
+					Count: 1b,
+					tag: {
+						value: "tconstruct:part_builder"
+					}
+				}
+			}]
+		},
+		{
+			title: "What's brown and stickier?",
+			x: 4.0d,
+			y: -6.0d,
+			subtitle: "A tool handle",
+			hide_dependency_lines: true,
+			dependencies: ["78C16CC57C2650DC"],
+			hide: true,
+			size: 1.2d,
+			id: "64A37728BA789356",
+			tasks: [{
+				id: "397925BFB9451D66",
+				type: "item",
+				title: "Any Tool Handle",
+				item: {
+					id: "itemfilters:id_regex",
+					Count: 1b,
+					tag: {
+						value: "tconstruct:tool_handle$"
+					}
+				}
+			}]
+		},
+		{
+			title: "Very Pointy",
+			x: 3.0d,
+			y: -7.0d,
+			subtitle: "Maybe it can break the nothingness?",
+			hide_dependency_lines: true,
+			dependencies: ["78C16CC57C2650DC"],
+			hide: true,
+			size: 1.2d,
+			id: "55E02DC0A9C2B902",
+			tasks: [{
+				id: "6FDD0B95FE0EBD23",
+				type: "item",
+				title: "Any Pickaxe Head",
+				item: {
+					id: "itemfilters:id_regex",
+					Count: 1b,
+					tag: {
+						value: "tconstruct:pickaxe_head$"
+					}
+				}
+			}]
+		},
+		{
+			title: "x",
+			x: 4.0d,
+			y: -7.0d,
+			hide_dependency_lines: true,
+			dependencies: ["78C16CC57C2650DC"],
+			hide: true,
+			size: 1.2d,
+			id: "6AA9F29542DDBACF",
+			tasks: [{
+				id: "58ECC6ADCD072C28",
+				type: "item",
+				title: "Any Tool Binding",
+				item: {
+					id: "itemfilters:id_regex",
+					Count: 1b,
+					tag: {
+						value: "tconstruct:tool_binding$"
+					}
+				}
+			}]
+		},
+		{
+			title: "Why is it called a pickAXE?",
+			x: 2.0d,
+			y: -7.0d,
+			subtitle: "It doesn't chop down trees, why?",
+			hide_dependency_lines: true,
+			dependencies: [
+				"55E02DC0A9C2B902",
+				"6AA9F29542DDBACF",
+				"64A37728BA789356",
+				"4647276E3EF1FA8C"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "2170B2BD84B9C4C4",
+			tasks: [{
+				id: "5456479CBFEC83CC",
+				type: "item",
+				item: {
+					id: "itemfilters:id_regex",
+					Count: 1b,
+					tag: {
+						value: "tconstruct:pickaxe$"
+					}
+				}
+			}]
+		},
+		{
+			title: "It's Getting Hot in Here",
+			x: -1.0d,
+			y: -1.0d,
+			subtitle: "So take off all your clothes",
+			hide_dependency_lines: true,
+			dependencies: [
+				"76D5F59DB0CC6518",
+				"746B9C754F083BCF"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "6A6AFE3DB4FD3359",
+			tasks: [{
+				id: "4E093B58CDE734B9",
+				type: "item",
+				item: "minecraft:furnace"
+			}],
+			rewards: [{
+				id: "2A3CB1663FC88029",
+				type: "item",
+				title: "Infinite Fuel Pellets",
+				icon: "kubejs:fuel_pellet",
+				team_reward: true,
+				item: {
+					id: "mekanism:creative_bin",
+					Count: 1b,
+					tag: {
+						mekData: {
+							fromRecipe: 1b,
+							Items: [{
+								Item: {
+									id: "kubejs:fuel_pellet",
+									Count: -1b
+								},
+								Slot: 0b,
+								SizeOverride: 2147483647
+							}]
+						}
+					}
+				}
+			}]
+		},
+		{
+			title: "How does it still have petals?",
+			icon: "minecraft:red_tulip",
+			x: 0.0d,
+			y: -5.0d,
+			subtitle: "Shouldn't they have decayed?",
+			hide_dependency_lines: true,
+			dependencies: ["7EAD5983C3B4328E"],
+			hide: true,
+			size: 1.2d,
+			id: "3FB838991B3BBDAD",
+			tasks: [{
+				id: "55D844E417A3C14C",
+				type: "item",
+				title: "Any Flower",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:small_flowers"
+					}
+				}
+			}],
+			rewards: [{
+				id: "10078E07D99B241B",
+				type: "item",
+				item: "minecraft:flower_pot",
+				count: 4
+			}]
+		},
+		{
+			title: "A world of color",
+			icon: "minecraft:red_dye",
+			x: -2.0d,
+			y: -5.0d,
+			subtitle: "In this black void",
+			hide_dependency_lines: true,
+			dependencies: ["0C1554CCA07BB622"],
+			hide: true,
+			size: 1.2d,
+			id: "56248601C71DE32C",
+			tasks: [
+				{
+					id: "33D7214B69E6F361",
+					type: "item",
+					item: "minecraft:yellow_dye"
+				},
+				{
+					id: "5D53CC2253DB96E2",
+					type: "item",
+					item: "minecraft:red_dye"
+				},
+				{
+					id: "576340E1150FD3E3",
+					type: "item",
+					item: "minecraft:blue_dye"
+				},
+				{
+					id: "793565528E0CC506",
+					type: "item",
+					item: "minecraft:white_dye"
+				},
+				{
+					id: "3904DC3B11333574",
+					type: "item",
+					item: "minecraft:light_blue_dye"
+				},
+				{
+					id: "005DC22F10F17097",
+					type: "item",
+					item: "minecraft:magenta_dye"
+				},
+				{
+					id: "3B70F1EE64C66D7F",
+					type: "item",
+					item: "minecraft:light_gray_dye"
+				},
+				{
+					id: "0BC61F2A1A2FB4E4",
+					type: "item",
+					item: "minecraft:orange_dye"
+				},
+				{
+					id: "41F2D892CF4BC770",
+					type: "item",
+					item: "minecraft:pink_dye"
+				},
+				{
+					id: "2223A16E0E75DAAF",
+					type: "item",
+					item: "minecraft:black_dye"
+				}
+			]
+		},
+		{
+			title: "Synthetic Dyes",
+			x: -3.0d,
+			y: -5.0d,
+			subtitle: "For when flowers aren't enough",
+			hide_dependency_lines: true,
+			dependencies: ["56248601C71DE32C"],
+			hide: true,
+			size: 1.2d,
+			id: "42628DBD0DF7F1B8",
+			tasks: [
+				{
+					id: "46115E011D76AB24",
+					type: "item",
+					item: "minecraft:purple_dye"
+				},
+				{
+					id: "4879EC3E985C4924",
+					type: "item",
+					item: "minecraft:gray_dye"
+				}
+			]
+		},
+		{
+			title: "I am a Botanist",
+			icon: "minecraft:lily_of_the_valley",
+			x: -1.0d,
+			y: -5.0d,
+			subtitle: "Because I have a big &mbutt&r flower collection",
+			hide_dependency_lines: true,
+			dependencies: ["3FB838991B3BBDAD"],
+			hide: true,
+			size: 1.2d,
+			id: "0C1554CCA07BB622",
+			tasks: [
+				{
+					id: "57947084F40FAF3B",
+					type: "item",
+					item: "minecraft:dandelion"
+				},
+				{
+					id: "357FCF137A8C57BD",
+					type: "item",
+					title: "Any Red Flower",
+					item: {
+						id: "itemfilters:or",
+						Count: 1b,
+						tag: {
+							items: [
+								{
+									id: "minecraft:poppy",
+									Count: 1b
+								},
+								{
+									id: "minecraft:red_tulip",
+									Count: 1b
+								}
+							]
+						}
+					}
+				},
+				{
+					id: "4A119B778A8A988B",
+					type: "item",
+					item: "minecraft:blue_orchid"
+				},
+				{
+					id: "007C0297A17EF610",
+					type: "item",
+					item: "minecraft:allium"
+				},
+				{
+					id: "7BE7E98506AD9E5B",
+					type: "item",
+					title: "Any Light Gray Flower",
+					item: {
+						id: "itemfilters:or",
+						Count: 1b,
+						tag: {
+							items: [
+								{
+									id: "minecraft:azure_bluet",
+									Count: 1b
+								},
+								{
+									id: "minecraft:oxeye_daisy",
+									Count: 1b
+								},
+								{
+									id: "minecraft:white_tulip",
+									Count: 1b
+								}
+							]
+						}
+					}
+				},
+				{
+					id: "2C2C7D1FA0BCCB82",
+					type: "item",
+					item: "minecraft:orange_tulip"
+				},
+				{
+					id: "1463CD27A56F2370",
+					type: "item",
+					item: "minecraft:pink_tulip"
+				},
+				{
+					id: "6072BE0F72B45770",
+					type: "item",
+					item: "minecraft:cornflower"
+				},
+				{
+					id: "48F9215054474A84",
+					type: "item",
+					item: "minecraft:lily_of_the_valley"
+				},
+				{
+					id: "3C0A71D849CD329E",
+					type: "item",
+					item: "minecraft:wither_rose"
+				}
+			],
+			rewards: [{
+				id: "64913E9226DCE601",
+				type: "item",
+				item: "minecraft:flower_pot",
+				count: 28
+			}]
+		},
+		{
+			title: "Where are the pebbles?",
+			x: -2.0d,
+			y: -2.0d,
+			subtitle: "Who stole my fing pebbles?",
+			hide_dependency_lines: true,
+			dependencies: [
+				"746B9C754F083BCF",
+				"6A6AFE3DB4FD3359"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "02EEAF7FF10AA852",
+			tasks: [{
+				id: "55486D7D505BAA98",
+				type: "item",
+				item: "minecraft:stone"
+			}]
+		},
+		{
+			title: "I see what's happening here",
+			x: -3.0d,
+			y: -2.0d,
+			subtitle: "Someone moved all my pebbles to the border.",
+			hide_dependency_lines: true,
+			dependencies: ["02EEAF7FF10AA852"],
+			hide: true,
+			size: 1.2d,
+			id: "0E5C13C15F6378FF",
+			tasks: [{
+				id: "3542B06F4E445ED6",
+				type: "item",
+				item: "minecraft:smooth_stone"
+			}]
+		},
+		{
+			title: "WHY IS IT CLEAN???",
+			x: -4.0d,
+			y: -2.0d,
+			subtitle: "I just wanted my pebbles back.",
+			hide_dependency_lines: true,
+			dependencies: ["0E5C13C15F6378FF"],
+			hide: true,
+			size: 1.2d,
+			id: "1EC12E1F0C27AC7B",
+			tasks: [{
+				id: "6274EA121A918A09",
+				type: "item",
+				item: "minecraft:quartz_block"
+			}]
+		},
+		{
+			title: "Aaand it broke.",
+			x: -5.0d,
+			y: -2.0d,
+			subtitle: "I'll fix this later(tm) - PoolloverNathan",
+			description: [""],
+			hide_dependency_lines: true,
+			dependencies: ["1EC12E1F0C27AC7B"],
+			hide: true,
+			size: 1.2d,
+			id: "16A00460BB0741D3",
+			tasks: [{
+				id: "0BA432848002953A",
+				type: "item",
+				item: "minecraft:quartz"
+			}]
+		},
+		{
+			title: "EVERYONE WILL DIE (right?)",
+			x: -5.0d,
+			y: -1.0d,
+			subtitle: "If I am incorrect, I will be mad.",
+			hide_dependency_lines: true,
+			dependencies: ["16A00460BB0741D3"],
+			hide: true,
+			size: 1.2d,
+			id: "6FE3DFC8D2346499",
+			tasks: [{
+				id: "6B02E67ED52EB04F",
+				type: "item",
+				item: "minecraft:diorite"
+			}]
+		},
+		{
+			title: "I'm still andesited on my favorite rock.",
+			x: -5.0d,
+			y: 0.0d,
+			subtitle: "And I get angry at bad puns.",
+			hide_dependency_lines: true,
+			dependencies: ["6FE3DFC8D2346499"],
+			hide: true,
+			size: 1.2d,
+			id: "531D5CBF0A169A75",
+			tasks: [{
+				id: "3CB6BBF5A11D7395",
+				type: "item",
+				item: "minecraft:andesite"
+			}]
+		},
+		{
+			title: "My first ore!",
+			x: 0.0d,
+			y: -1.0d,
+			subtitle: "Probably will be useful?",
+			dependencies: ["12191A8F5EFA8D4F"],
+			hide: false,
+			size: 1.2d,
+			id: "0ED321B4755AB420",
+			tasks: [{
+				id: "6C04E1B2DACA58B4",
+				type: "item",
+				item: "minecraft:iron_ore"
+			}]
+		},
+		{
+			title: "Not a very good sand castle",
+			x: 3.0d,
+			y: -2.0d,
+			subtitle: "I could easily make a better one",
+			hide_dependency_lines: true,
+			dependencies: [
+				"27F83E723DF989EF",
+				"6A6AFE3DB4FD3359"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "7F7711E29021731D",
+			tasks: [{
+				id: "39F48B009080D788",
+				type: "item",
+				item: "minecraft:sand"
+			}]
+		},
+		{
+			title: "Very moist dirt",
+			x: 2.0d,
+			y: -2.0d,
+			subtitle: "Now I need dripleaves",
+			hide_dependency_lines: true,
+			dependencies: [
+				"27F83E723DF989EF",
+				"5623CD8608982E14"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "6DD91893D26FB872",
+			tasks: [{
+				id: "2A703CC1964786D4",
+				type: "item",
+				item: "minecraft:clay"
+			}]
+		},
+		{
+			title: "Pile of pebbles",
+			x: -2.0d,
+			y: -3.0d,
+			subtitle: "Not to be confused with cobblestone",
+			hide_dependency_lines: true,
+			dependencies: ["2B76EE2EDCF8A547"],
+			hide: true,
+			size: 1.2d,
+			id: "3B82C83BFA892E6D",
+			tasks: [{
+				id: "176E6E65D966CFB5",
+				type: "item",
+				item: "minecraft:gravel"
+			}]
+		},
+		{
+			title: "A small vocabulary",
+			x: 2.0d,
+			y: -1.0d,
+			subtitle: "It describes my favorite character from Guardians of the Galaxy!",
+			hide_dependency_lines: true,
+			dependencies: [
+				"3B82C83BFA892E6D",
+				"7F7711E29021731D"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "6BAC963BD65DB0B3",
+			tasks: [{
+				id: "735DF5A34D57C7C2",
+				type: "item",
+				item: "tconstruct:grout"
+			}]
+		},
+		{
+			title: "Thicc Ingot",
+			x: -1.0d,
+			y: 0.0d,
+			subtitle: "Of solid claysandgravel",
+			hide_dependency_lines: true,
+			dependencies: [
+				"6BAC963BD65DB0B3",
+				"6A6AFE3DB4FD3359"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "19861ADEBB48DAAD",
+			tasks: [{
+				id: "5A92BB487314F230",
+				type: "item",
+				item: "tconstruct:seared_brick"
+			}]
+		},
+		{
+			title: "The Furnace for Metal",
+			icon: "tconstruct:seared_melter",
+			x: -1.0d,
+			y: 1.0d,
+			subtitle: "i would not get in there",
+			hide_dependency_lines: true,
+			dependencies: ["19861ADEBB48DAAD"],
+			hide: true,
+			size: 1.2d,
+			id: "4755A1195C79372B",
+			tasks: [
+				{
+					id: "2C557F9D0E494F1C",
+					type: "item",
+					item: "tconstruct:seared_melter"
+				},
+				{
+					id: "65A879D53BB305D8",
+					type: "item",
+					item: "tconstruct:seared_heater"
+				},
+				{
+					id: "5D2F93F8D5FB00B4",
+					type: "item",
+					item: "tconstruct:seared_faucet"
+				},
+				{
+					id: "3B83DA70D25C5834",
+					type: "item",
+					item: "tconstruct:seared_table"
+				}
+			],
+			rewards: [
+				{
+					id: "58897F54E748EF4C",
+					type: "item",
+					item: "tconstruct:ingot_cast"
+				},
+				{
+					id: "4E403B059F7BECAD",
+					type: "item",
+					item: "tconstruct:seared_basin"
+				}
+			]
+		},
+		{
+			title: "Iron Bar",
+			x: -2.0d,
+			y: 1.0d,
+			subtitle: "Very hard",
+			hide_dependency_lines: true,
+			dependencies: [
+				"4755A1195C79372B",
+				"0ED321B4755AB420"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "4F47388912B0B215",
+			tasks: [{
+				id: "76101BC8F1741891",
+				type: "item",
+				item: "minecraft:iron_ingot"
+			}]
+		},
+		{
+			title: "Small Iron",
+			x: -3.0d,
+			y: 1.0d,
+			subtitle: "But a lot of it",
+			hide_dependency_lines: true,
+			dependencies: ["4F47388912B0B215"],
+			hide: true,
+			size: 1.2d,
+			id: "4DA8274BBA6AB6A2",
+			tasks: [{
+				id: "3E14EB4DC38B6533",
+				type: "item",
+				item: "minecraft:iron_nugget"
+			}]
+		},
+		{
+			title: "Ironic Blocks",
+			x: -1.0d,
+			y: 2.0d,
+			subtitle: "An expensive building block",
+			hide_dependency_lines: true,
+			dependencies: ["4755A1195C79372B"],
+			hide: true,
+			size: 1.2d,
+			id: "76040B2AFFD86D86",
+			tasks: [{
+				id: "09B27EE858F42A8C",
+				type: "item",
+				item: "minecraft:iron_block"
+			}]
+		},
+		{
+			title: "Boop",
+			x: 0.0d,
+			y: -6.0d,
+			subtitle: "The thing I like to push",
+			hide_dependency_lines: true,
+			dependencies: ["789A83EA4958214C"],
+			hide: true,
+			size: 1.2d,
+			id: "7605150DF8660EC8",
+			tasks: [{
+				id: "30778D1EA75A9F73",
+				type: "item",
+				title: "Any Vanilla Wooden Button",
+				item: {
+					id: "itemfilters:and",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag",
+								Count: 1b,
+								tag: {
+									value: "minecraft:wooden_buttons"
+								}
+							},
+							{
+								id: "itemfilters:not",
+								Count: 1b,
+								tag: {
+									items: [{
+										id: "itemfilters:tag",
+										Count: 1b,
+										tag: {
+											value: "minecraft:non_flammable_wood"
+										}
+									}]
+								}
+							},
+							{
+								id: "itemfilters:mod",
+								Count: 1b,
+								tag: {
+									value: "minecraft"
+								}
+							},
+							{
+								id: "itemfilters:not",
+								Count: 1b,
+								tag: {
+									items: [{
+										id: "itemfilters:tag",
+										Count: 1b,
+										tag: {
+											value: "forge:chests/trapped"
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Some Server Software",
+			x: -2.0d,
+			y: 0.0d,
+			subtitle: "Sadly, I just made it and it got copyrighted.",
+			size: 1.2d,
+			id: "59728835C929EDA9",
+			tasks: [{
+				id: "3355FEE260018819",
+				type: "item",
+				item: "minecraft:bucket"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.0d,
+			id: "5623CD8608982E14",
+			tasks: [{
+				id: "56455A7A85ADEC6F",
+				type: "item",
+				item: "kubejs:water_droplet"
+			}]
+		},
+		{
+			title: "It's full!",
+			x: -3.0d,
+			y: 0.0d,
+			subtitle: "Of space juice",
+			hide_dependency_lines: true,
+			dependencies: [
+				"59728835C929EDA9",
+				"5623CD8608982E14"
+			],
+			hide: true,
+			id: "1AA53BFE930D8962",
+			tasks: [{
+				id: "7EF96065E23E5E5D",
+				type: "item",
+				item: "minecraft:water_bucket"
+			}]
+		}
+	]
+}

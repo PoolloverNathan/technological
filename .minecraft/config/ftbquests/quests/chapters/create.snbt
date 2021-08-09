@@ -1,0 +1,233 @@
+{
+	id: "5CB55E7CB3DAF78C",
+	group: "",
+	order_index: 1,
+	filename: "create",
+	title: "Create",
+	icon: "create:andesite_alloy",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Alliterations Aplenty",
+			x: 0.0d,
+			y: 0.0d,
+			subtitle: "And then some",
+			hide_dependency_lines: true,
+			dependencies: [
+				"531D5CBF0A169A75",
+				"4DA8274BBA6AB6A2"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "7C217EB839D1175A",
+			tasks: [{
+				id: "17134534B581B1AB",
+				type: "item",
+				item: "create:andesite_alloy"
+			}],
+			rewards: [{
+				id: "5210998880793D8D",
+				type: "item",
+				item: "create:shaft",
+				count: 32
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["7C217EB839D1175A"],
+			hide: true,
+			size: 1.2d,
+			id: "3D4BC9CAD17E1055",
+			tasks: [{
+				id: "5B2739D301462EA0",
+				type: "item",
+				item: "create:andesite_casing"
+			}]
+		},
+		{
+			title: "An impressive machine",
+			x: 1.0d,
+			y: -1.0d,
+			subtitle: "Designed for making flat ingots",
+			hide_dependency_lines: true,
+			dependencies: [
+				"623E28D59A4550BB",
+				"3D4BC9CAD17E1055"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "5402FBF01B11E388",
+			tasks: [{
+				id: "4B55CE2D0E729AFB",
+				type: "item",
+				item: "create:mechanical_press"
+			}],
+			rewards: [{
+				id: "012894E557733EEA",
+				type: "item",
+				item: "create:creative_motor"
+			}]
+		},
+		{
+			title: "Spinny spin",
+			x: 0.0d,
+			y: -1.0d,
+			subtitle: "Spin spinny spin spin",
+			hide_dependency_lines: true,
+			dependencies: [
+				"7C217EB839D1175A",
+				"7605150DF8660EC8"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "623E28D59A4550BB",
+			tasks: [{
+				id: "4714329001CDB9B9",
+				type: "item",
+				item: "create:cogwheel"
+			}],
+			rewards: [{
+				id: "7E7B766CD990D22B",
+				type: "item",
+				item: "create:cogwheel",
+				count: 31
+			}]
+		},
+		{
+			title: "Item Slab",
+			x: 1.0d,
+			y: 0.0d,
+			subtitle: "27 of these is like a chest!",
+			hide_dependency_lines: true,
+			dependencies: [
+				"7C217EB839D1175A",
+				"3D4BC9CAD17E1055"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "03D2C3A1A75A3F3B",
+			tasks: [{
+				id: "6A239DE6901851B6",
+				type: "item",
+				item: "create:depot"
+			}]
+		},
+		{
+			title: "Flat iron bar",
+			x: 2.0d,
+			y: 0.0d,
+			subtitle: "Sadly doesn't make flat buckets",
+			hide_dependency_lines: true,
+			dependencies: ["03D2C3A1A75A3F3B"],
+			hide: true,
+			size: 1.2d,
+			id: "5A25F42DDDF990D7",
+			tasks: [{
+				id: "2EA4550656155EE3",
+				type: "item",
+				item: "create:iron_sheet"
+			}]
+		},
+		{
+			title: "Spinning faster",
+			x: 2.0d,
+			y: -1.0d,
+			subtitle: "For making brass",
+			hide_dependency_lines: true,
+			dependencies: ["5A25F42DDDF990D7"],
+			hide: true,
+			id: "214B62094E8C51B0",
+			tasks: [{
+				id: "3EBF3D3B4750989B",
+				type: "item",
+				item: "create:whisk"
+			}]
+		},
+		{
+			title: "Cogged spinner?",
+			x: 3.0d,
+			y: -1.0d,
+			subtitle: "Oh wait, alloys",
+			hide_dependency_lines: true,
+			dependencies: [
+				"214B62094E8C51B0",
+				"623E28D59A4550BB"
+			],
+			hide: true,
+			size: 1.2d,
+			id: "0FE6D139F2219BCF",
+			tasks: [{
+				id: "26266C8AA8BC67F8",
+				type: "item",
+				item: "create:mechanical_mixer"
+			}],
+			rewards: [{
+				id: "023A05605980EBB8",
+				type: "gamestage",
+				title: "New Ores Unlocked",
+				icon: "create:copper_ore",
+				auto: "invisible",
+				stage: "create_ores"
+			}]
+		},
+		{
+			title: "Real iron bars!",
+			x: 1.0d,
+			y: 1.0d,
+			subtitle: "Not that ingot stuff",
+			description: [""],
+			hide_dependency_lines: true,
+			dependencies: ["4F47388912B0B215"],
+			hide: true,
+			size: 1.2d,
+			id: "46BF3A65E4EC22FF",
+			tasks: [{
+				id: "17B90617DBBCA691",
+				type: "item",
+				item: "minecraft:iron_bars"
+			}]
+		},
+		{
+			title: "Basin with my friends",
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: [
+				"5A25F42DDDF990D7",
+				"7C217EB839D1175A"
+			],
+			size: 1.2d,
+			id: "00910AEF2E405A94",
+			tasks: [{
+				id: "30899A0A6AA3938B",
+				type: "item",
+				item: "create:basin"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.0d,
+			dependencies: [
+				"46BF3A65E4EC22FF",
+				"5A25F42DDDF990D7"
+			],
+			id: "5049E325CCF27CCA",
+			tasks: [{
+				id: "1FCEC14545C18370",
+				type: "item",
+				item: "create:empty_blaze_burner"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			id: "39F490136D161B08",
+			tasks: [{
+				id: "0E01C52B7D1B0751",
+				type: "item",
+				item: "create:blaze_burner"
+			}]
+		}
+	]
+}

@@ -11,16 +11,23 @@ onEvent("item.registry", event => {
 	event.create("example_item").displayName("Example Item")
 	event.create("resonating_iron").displayName("Resonating Iron")
 	event.create("conductive_flint").displayName("Conductive Flint");
+	event.create("dirt_dust").displayName("Tiny Pile of Dirt");
+	event.create("water_droplet").displayName("Drop of Water");
+	event.create("overgrowth_fertilizer").displayName("Fertilizer of Overgrowth");
+	event.create("overgrown_cutting").displayName("Overgrown Cutting");
+	event.create("pebble").displayName("Pebble");
+	event.create("metal_chunk").displayName("Metallic Chunk");
 	event.create("ball_gold_cast").displayName("Ball Gold Cast")
 	event.create("slime_crystal_gold_cast").displayName("Slime Crystal Gold Cast");
+	event.create("fuel_pellet").displayName("Fuel Pellet");
 	event.create("incomplete_glow_panel").displayName("Incomplete Glow Panel");
 	event.create("incomplete_super_glue").displayName("Incomplete Super Glue");
 	event.create("incomplete_electron_tube").displayName("Incomplete Electron Tube");
 	event.create("processor_casing").displayName("Processor Casing");
 	[["basic", "Basic"], ["improved", "Improved"], ["advanced", "Advanced"]].forEach([reg, name] => 
 		event.create(`unfinished_${reg}_processor`).displayName(`Unfinished ${name} Processor`));
-    [["blue", "Ocean"], ["brown", "Fecal"], ["cyan", "Strange"], ["gray", "Ancient"], ["green", "Organic"], ["light_blue", "Sky"], ["light_gray", "Faded"], ["lime", "Sprouting"], ["magenta", "Polished"], ["orange", "Infused"], ["pink", "Blooming"], ["purple", "Enriched"], ["red", "Harmful"], ["white", "Pure"], ["yellow", "Radioactive"]].forEach([color, type] =>
-        event.create(`${color}_nothingness_kit`).displayName(`${type} Nothingness Conversion Kit`));
+    /*[["blue", "Ocean"], ["brown", "Fecal"], ["cyan", "Strange"], ["gray", "Ancient"], ["green", "Organic"], ["light_blue", "Sky"], ["light_gray", "Faded"], ["lime", "Sprouting"], ["magenta", "Polished"], ["orange", "Infused"], ["pink", "Blooming"], ["purple", "Enriched"], ["red", "Harmful"], ["white", "Pure"], ["yellow", "Radioactive"]].forEach([color, type] =>
+        event.create(`${color}_nothingness_kit`).displayName(`${type} Nothingness Conversion Kit`));*/
 	event.create("incomplete_steel_casing").displayName("Incomplete Steel Casing");
 	event.create("incomplete_wand_of_symmetry").displayName("Incomplete Wand of Symmetry")
 	event.create("incomplete_enrichment_chamber").displayName("Incomplete Enrichment Chamber")
@@ -41,9 +48,9 @@ onEvent("block.registry", event => {
 	event.create("ender_block").material("stone").hardness(4.0).displayName("Block of Ender")
 	event.create("gateway").material("stone").hardness(4.0).displayName("Travel Gateway")
 	event.create("nothingness").material("stone").hardness(4.0).displayName("Nothingness")
-	event.create("pc").material("stone").hardness(4.0).displayName("Personal Computer");
+	/*event.create("pc").material("stone").hardness(4.0).displayName("Personal Computer");
     [["blue", "Ocean"], ["brown", "Fecal"], ["cyan", "Strange"], ["gray", "Ancient"], ["green", "Organic"], ["light_blue", "Sky"], ["light_gray", "Faded"], ["lime", "Sprouting"], ["magenta", "Polished"], ["orange", "Infused"], ["pink", "Blooming"], ["purple", "Enriched"], ["red", "Harmful"], ["white", "Pure"], ["yellow", "Radioactive"]].forEach([color, type] =>
-        event.create(`${color}_nothingness`).material("stone").hardness(4.0).displayName(`${type} Nothingness`));
+        event.create(`${color}_nothingness`).material("stone").hardness(4.0).displayName(`${type} Nothingness`));*/
 })
 
 onEvent("fluid.registry", event => {

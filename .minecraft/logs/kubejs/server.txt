@@ -1,21 +1,19 @@
-[17:08:26] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[17:08:26] [INFO] SourceFile:407: Loaded script server_scripts:script.js in 0.001 s
-[17:08:26] [INFO] SourceFile:407: Loaded 1/1 KubeJS server scripts in 0.005 s
-[17:08:26] [INFO] Scripts loaded
-[17:08:26] [INFO] Scanning recipes...
-[17:08:27] [INFO] [blocks] Found 330 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [items] Found 632 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [fluids] Found 85 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [entity_types] Found 18 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [slurries] Found 2 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [gases] Found 5 tags, added 0 objects, removed 0 objects
-[17:08:27] [INFO] [pigments] Found 0 tags, added 0 objects, removed 0 objects
-[17:08:27] [WARN] Failed to parse recipe kubejs:enrichment_chamber[create:sequenced_assembly]: com.google.gson.JsonSyntaxException: Unknown item 'kubejs:incomplete_enrichment_chamber'
-[17:08:27] [WARN] Failed to parse recipe 'kubejs:enrichment_chamber[create:sequenced_assembly]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'kubejs:incomplete_enrichment_chamber'
-[17:08:27] [WARN] Failed to parse recipe 'supplementaries:flower_box[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
-[17:08:27] [WARN] Failed to parse recipe supplementaries:flower_box[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
-[17:08:28] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[17:09:33] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[17:09:33] [INFO] SourceFile:18: Loaded script server_scripts:script.js in 0.001 s
+[17:09:33] [INFO] SourceFile:18: Loaded 1/1 KubeJS server scripts in 0.003 s
+[17:09:33] [INFO] Scripts loaded
+[17:09:33] [INFO] Scanning recipes...
+[17:09:34] [INFO] [blocks] Found 343 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [items] Found 654 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [fluids] Found 85 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [entity_types] Found 18 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[17:09:34] [INFO] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[17:09:35] [WARN] Failed to parse recipe 'supplementaries:flower_box[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
+[17:09:35] [WARN] Failed to parse recipe supplementaries:flower_box[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
+[17:09:35] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
