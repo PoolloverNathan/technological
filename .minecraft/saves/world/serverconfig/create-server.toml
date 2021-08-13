@@ -17,7 +17,7 @@
 	enableRefinedRadianceRecipe = true
 	# 
 	#When true, allows Firework Rockets with more than 9 ingredients to be crafted using Mechanical Crafters.
-	allowBiggerFireworksInCrafter = false
+	allowBiggerFireworksInCrafter = true
 	# 
 	#When true, allows any single-ingredient 2x2 or 3x3 crafting recipes to be processed by a Mechanical Press + Basin.
 	allowShapedSquareInPress = true
@@ -207,12 +207,12 @@
 
 		# 
 		#Fine tune the kinetic stats of individual components
-		[kinetics.stressValues.v1]
+		[kinetics.stressValues.v2]
 
 			#
 			#[in Stress Units]
 			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
-			[kinetics.stressValues.v1.impact]
+			[kinetics.stressValues.v2.impact]
 				mechanical_bearing = 4.0
 				clockwork_bearing = 4.0
 				turntable = 4.0
@@ -255,7 +255,7 @@
 			#
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
-			[kinetics.stressValues.v1.capacity]
+			[kinetics.stressValues.v2.capacity]
 				creative_motor = 16384.0
 				furnace_engine = 1024.0
 				hand_crank = 8.0

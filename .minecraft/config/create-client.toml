@@ -29,14 +29,6 @@
 	#Display a tooltip when looking at overstressed components.
 	enableOverstressedTooltip = true
 	# 
-	#Offset the overlay from goggle- and hover- information by this many pixels on the Y axis; Use /create overlay
-	#Range: > -2147483648
-	overlayOffsetY = 0
-	# 
-	#Offset the overlay from goggle- and hover- information by this many pixels on the X axis; Use /create overlay
-	#Range: > -2147483648
-	overlayOffsetX = 20
-	# 
 	#Use modern OpenGL features to drastically increase performance.
 	experimentalRendering = true
 	# 
@@ -73,6 +65,39 @@
 		# 
 		#Slow down a ponder scene whenever there is text on screen.
 		comfyReading = false
+
+	# 
+	#Settings for the Goggle Overlay
+	[client.goggleOverlay]
+		# 
+		#Enable this to use your custom colors for the Goggle- and Hover- Overlay
+		customColorsOverlay = false
+		# 
+		#Offset the overlay from goggle- and hover- information by this many pixels on the Y axis; Use /create overlay
+		#Range: > -2147483648
+		overlayOffsetY = 0
+		# 
+		#Offset the overlay from goggle- and hover- information by this many pixels on the X axis; Use /create overlay
+		#Range: > -2147483648
+		overlayOffsetX = 20
+		# 
+		#The custom top color of the border gradient to use for the Goggle- and Hover- Overlays, if enabled
+		#[in Hex: #AaRrGgBb]
+		#[@cui:IntDisplay:#]
+		#Range: > -2147483648
+		customBorderTopOverlay = 1347420415
+		# 
+		#The custom background color to use for the Goggle- and Hover- Overlays, if enabled
+		#[in Hex: #AaRrGgBb]
+		#[@cui:IntDisplay:#]
+		#Range: > -2147483648
+		customBackgroundOverlay = -267386864
+		# 
+		#The custom bot color of the border gradient to use for the Goggle- and Hover- Overlays, if enabled
+		#[in Hex: #AaRrGgBb]
+		#[@cui:IntDisplay:#]
+		#Range: > -2147483648
+		customBorderBotOverlay = 1344798847
 
 	# 
 	#Settings for the Placement Assist

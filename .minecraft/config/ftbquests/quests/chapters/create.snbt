@@ -208,10 +208,12 @@
 		{
 			x: 2.0d,
 			y: 1.0d,
+			hide_dependency_lines: true,
 			dependencies: [
 				"46BF3A65E4EC22FF",
 				"5A25F42DDDF990D7"
 			],
+			hide: true,
 			id: "5049E325CCF27CCA",
 			tasks: [{
 				id: "1FCEC14545C18370",
@@ -227,6 +229,76 @@
 				id: "0E01C52B7D1B0751",
 				type: "item",
 				item: "create:blaze_burner"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"360D4AADD666D733",
+				"0FE6D139F2219BCF",
+				"00910AEF2E405A94",
+				"39F490136D161B08"
+			],
+			hide: true,
+			id: "0FE4FC7A7E89E6FB",
+			tasks: [{
+				id: "0311E8B5A9E24F67",
+				type: "item",
+				item: "create:brass_ingot"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"00910AEF2E405A94",
+				"5402FBF01B11E388"
+			],
+			hide: true,
+			id: "2D6B8B50C81B62BD",
+			tasks: [{
+				id: "552C0855A347CCAA",
+				type: "item",
+				item: "kubejs:liquifacted_coal_bucket"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["0FE4FC7A7E89E6FB"],
+			hide: true,
+			id: "4596EB53C553EFB1",
+			tasks: [{
+				id: "40BA250429A15342",
+				type: "item",
+				item: "create:brass_sheet"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["4596EB53C553EFB1"],
+			hide: true,
+			id: "613CC3B1585B15E8",
+			tasks: [{
+				id: "6A6D8CD325CF6BA0",
+				type: "item",
+				item: "create:brass_hand"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			id: "2A943600F901FC08",
+			tasks: [{
+				id: "453BE514B7C6F7E8",
+				type: "item",
+				item: "create:deployer"
 			}]
 		}
 	]

@@ -967,7 +967,8 @@
 			hide_dependency_lines: true,
 			dependencies: [
 				"3B82C83BFA892E6D",
-				"7F7711E29021731D"
+				"7F7711E29021731D",
+				"6DD91893D26FB872"
 			],
 			hide: true,
 			size: 1.2d,
@@ -1197,6 +1198,69 @@
 				id: "7EF96065E23E5E5D",
 				type: "item",
 				item: "minecraft:water_bucket"
+			}]
+		},
+		{
+			title: "I zinc that copper will be important.",
+			x: 1.0d,
+			y: -1.0d,
+			subtitle: "It's like things are getting smarter!",
+			hide_dependency_lines: true,
+			dependencies: [
+				"12191A8F5EFA8D4F",
+				"0FE6D139F2219BCF"
+			],
+			hide: true,
+			id: "448D90A88E7D9AF2",
+			tasks: [
+				{
+					id: "5ED2912AE4C866D8",
+					type: "item",
+					item: "create:copper_ore"
+				},
+				{
+					id: "52D6658972EB1F9C",
+					type: "item",
+					item: "create:zinc_ore"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["448D90A88E7D9AF2"],
+			hide: true,
+			id: "360D4AADD666D733",
+			tasks: [
+				{
+					id: "48760D66C692E13D",
+					type: "item",
+					item: "create:copper_ingot"
+				},
+				{
+					id: "33A034778234EB81",
+					type: "item",
+					item: "create:zinc_ingot"
+				}
+			]
+		},
+		{
+			title: "Cutting corners",
+			x: -2.0d,
+			y: 2.0d,
+			subtitle: "And making ores",
+			hide_dependency_lines: true,
+			dependencies: [
+				"02EEAF7FF10AA852",
+				"4F47388912B0B215"
+			],
+			hide: true,
+			id: "0F276958A6B769DF",
+			tasks: [{
+				id: "37523F93B5B69068",
+				type: "item",
+				item: "minecraft:stonecutter"
 			}]
 		}
 	]

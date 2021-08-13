@@ -57,6 +57,7 @@ onEvent("fluid.registry", event => {
 	// Register new fluids here
 	event.create("molten_quartz_enriched_iron").textureThick(0xCC5555).bucketColor(0xCC5555).displayName("Molten Quartz Enriched Iron");
 	event.create("molten_refined_obsidian").textureThick(0xCC00CC).bucketColor(0xCC00CC).displayName("Molten Refined Obsidian");
+	event.create("liquifacted_coal").textureThin(0x444444).bucketColor(0x444444).displayName("Liquifacted Coal");
 	event.create("creative_essence").textureThin(0xFF00FF).bucketColor(0xFF00FF).displayName("Essence of Pure Creativity");
 	event.create("molten_nether_star").textureThin(0xFFFFFF).bucketColor(0xFFFFFF).displayName("Molten Nether Star");
 })
