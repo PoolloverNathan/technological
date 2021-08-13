@@ -50,5 +50,5 @@ jobs:
       
       - name: Push new commit
         run: |
-          git push -u origin clean
+          git push -fu origin clean
           
