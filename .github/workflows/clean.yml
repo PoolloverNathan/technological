@@ -32,6 +32,9 @@ jobs:
 
       - name: Reset clean branch
         run: git branch -f clean devel
+
+      - name: Use clean branch
+        run: git checkout clean
      
       - name: Delete personal files
         run: |
