@@ -1,0 +1,19 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create:filter"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 2
+    },
+    {
+      "item": "minecraft:string",
+      "count": 4
+    }
+  ],
+  "processingTime": 20
+}

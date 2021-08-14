@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:dough"
+    },
+    {
+      "item": "create:dough"
+    },
+    {
+      "item": "create:dough"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "fluid": "create:milk",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cake"
+    }
+  ]
+}

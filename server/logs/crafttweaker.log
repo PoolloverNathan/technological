@@ -1,0 +1,79 @@
+[14:23:36.896][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[14:23:37.718][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'crafttweaker' at version '7.1.0.347'
+'createtweaker' at version '1.0.0.18'
+'gamestages' at version '7.1.6'
+'immersiveengineering' at version '1.16.5-5.0.0-135'
+'tconstruct' at version '3.0.4.197'
+[14:23:38.836][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[14:24:01.233][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[14:24:02.482][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[14:24:28.714][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[14:24:28.827][DONE][CLIENT][INFO] Loading file: create.zs
+[14:24:28.830][DONE][CLIENT][INFO] Loading file: disable.zs
+[14:24:28.831][DONE][CLIENT][INFO] Loading file: misc.zs
+[14:24:28.832][DONE][CLIENT][INFO] Loading file: tconstruct.zs
+[14:24:28.878][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:create:basin>"
+[14:24:28.890][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:basin" that outputs: <item:create:basin>
+[14:24:28.891][DONE][CLIENT][INFO] Adding "create:emptying" recipe, with name: "crafttweaker:emptying_test" that outputs: <item:minecraft:air>
+[14:24:28.893][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:plate_gold>
+[14:24:28.905][DONE][CLIENT][INFO] Removed 2 recipes registered in these 2 recipe managers: [<recipetype:immersiveengineering:metal_press>: 1, <recipetype:minecraft:crafting>: 1]
+[14:24:28.906][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:plate_iron>
+[14:24:28.910][DONE][CLIENT][INFO] Removed 2 recipes registered in these 2 recipe managers: [<recipetype:immersiveengineering:metal_press>: 1, <recipetype:minecraft:crafting>: 1]
+[14:24:28.911][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:plate_copper>
+[14:24:28.914][DONE][CLIENT][INFO] Removed 2 recipes registered in these 2 recipe managers: [<recipetype:immersiveengineering:metal_press>: 1, <recipetype:minecraft:crafting>: 1]
+[14:24:28.914][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:mold_bullet_casing>
+[14:24:28.919][DONE][CLIENT][INFO] Removed 1 recipes registered in these 1 recipe managers: [<recipetype:immersiveengineering:blueprint>: 1]
+[14:24:28.919][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:mold_gear>
+[14:24:28.923][DONE][CLIENT][INFO] Removed 1 recipes registered in these 1 recipe managers: [<recipetype:immersiveengineering:blueprint>: 1]
+[14:24:28.923][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:mold_packing_4>
+[14:24:28.926][DONE][CLIENT][INFO] Removed 1 recipes registered in these 1 recipe managers: [<recipetype:immersiveengineering:blueprint>: 1]
+[14:24:28.926][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:mold_packing_9>
+[14:24:28.929][DONE][CLIENT][INFO] Removed 1 recipes registered in these 1 recipe managers: [<recipetype:immersiveengineering:blueprint>: 1]
+[14:24:28.929][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:mold_plate>
+[14:24:28.933][DONE][CLIENT][INFO] Removed 1 recipes registered in these 1 recipe managers: [<recipetype:immersiveengineering:blueprint>: 1]
+[14:24:28.933][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:mold_rod>
+[14:24:28.936][DONE][CLIENT][INFO] Removed 1 recipes registered in these 1 recipe managers: [<recipetype:immersiveengineering:blueprint>: 1]
+[14:24:28.936][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:mold_unpacking>
+[14:24:28.939][DONE][CLIENT][INFO] Removed 1 recipes registered in these 1 recipe managers: [<recipetype:immersiveengineering:blueprint>: 1]
+[14:24:28.940][DONE][CLIENT][INFO] Removing all recipes that output <item:immersiveengineering:mold_wire>
+[14:24:28.944][DONE][CLIENT][INFO] Removed 1 recipes registered in these 1 recipe managers: [<recipetype:immersiveengineering:blueprint>: 1]
+[14:24:28.946][DONE][CLIENT][INFO] Setting burn time of: <item:kubejs:fuel_pellet> to 200
+[14:24:28.946][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:powah:dielectric_paste>"
+[14:24:28.949][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:cobblestone" that outputs: <item:minecraft:cobblestone>
+[14:24:28.950][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:gravel" that outputs: <item:minecraft:gravel>
+[14:24:28.950][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:dirt" that outputs: <item:minecraft:dirt>
+[14:24:28.951][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shapeless", with name: "crafttweaker:white_to_fertilizer" that outputs: <item:kubejs:overgrowth_fertilizer>
+[14:24:28.951][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:fertilizer_to_bonemeal" that outputs: <item:minecraft:bone_meal>
+[14:24:28.953][DONE][CLIENT][INFO] Adding "tconstruct:melting" recipe, with name: "crafttweaker:melt_qei" that outputs: <item:minecraft:air>
+[14:24:28.954][DONE][CLIENT][INFO] Adding "tconstruct:melting" recipe, with name: "crafttweaker:melt_qei_casing" that outputs: <item:minecraft:air>
+[14:24:28.954][DONE][CLIENT][INFO] Adding "tconstruct:melting" recipe, with name: "crafttweaker:melt_qei_block" that outputs: <item:minecraft:air>
+[14:24:28.956][DONE][CLIENT][INFO] Adding "tconstruct:melting" recipe, with name: "crafttweaker:melt_stone" that outputs: <item:minecraft:air>
+[14:24:28.957][DONE][CLIENT][INFO] Adding "tconstruct:melting" recipe, with name: "crafttweaker:melt_ro_ingot" that outputs: <item:minecraft:air>
+[14:24:28.958][DONE][CLIENT][INFO] Adding "tconstruct:melting" recipe, with name: "crafttweaker:melt_ro" that outputs: <item:minecraft:air>
+[14:24:28.958][DONE][CLIENT][INFO] Adding "tconstruct:melting" recipe, with name: "crafttweaker:melt_ro_nugget" that outputs: <item:minecraft:air>
+[14:24:28.960][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:alloy_quartz_and_iron" that outputs: <item:minecraft:air>
+[14:24:28.960][DONE][CLIENT][INFO] Adding "tconstruct:casting_basin" recipe, of type: "Item Casting", with name: "crafttweaker:cast_block_of_ender" that outputs: <item:kubejs:ender_block>
+[14:24:28.961][DONE][CLIENT][INFO] Adding "tconstruct:casting_basin" recipe, of type: "Item Casting", with name: "crafttweaker:cast_travel_gateway" that outputs: <item:kubejs:gateway>
+[14:24:28.961][DONE][CLIENT][INFO] Adding "tconstruct:casting_basin" recipe, of type: "Item Casting", with name: "crafttweaker:cast_scorched_duct" that outputs: <item:tconstruct:scorched_duct>
+[14:24:28.961][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_copper_gem_can" that outputs: <item:tconstruct:copper_can>
+[14:24:28.962][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_copper_gem_can_oneuse" that outputs: <item:tconstruct:copper_can>
+[14:24:28.962][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_nothingness" that outputs: <item:kubejs:nothingness>
+[14:24:28.962][DONE][CLIENT][INFO] Adding "tconstruct:casting_basin" recipe, of type: "Item Casting", with name: "crafttweaker:fill_blaze_burner" that outputs: <item:create:blaze_burner>
+[14:24:28.963][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_ball_cast" that outputs: <item:kubejs:ball_gold_cast>
+[14:24:28.963][DONE][CLIENT][INFO] Removing "tconstruct:casting_table" recipes with output: com.blamejared.crafttweaker.impl.ingredients.IIngredientWrapped@2eefbd9f"
+[14:24:28.964][DONE][CLIENT][INFO] Removing "tconstruct:casting_table" recipes with output: <item:minecraft:ender_pearl>"
+[14:24:28.965][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_slime_earth" that outputs: <item:minecraft:slime_ball>
+[14:24:28.965][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_slime_sky" that outputs: <item:tconstruct:sky_slime_ball>
+[14:24:28.966][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_slime_blood" that outputs: <item:tconstruct:blood_slime_ball>
+[14:24:28.966][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_slime_ender" that outputs: <item:tconstruct:ender_slime_ball>
+[14:24:28.966][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_slime_enderpearl" that outputs: <item:minecraft:ender_pearl>
+[14:24:28.967][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_slimec_earth" that outputs: <item:tconstruct:earth_slime_crystal>
+[14:24:28.967][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_slimec_sky" that outputs: <item:tconstruct:sky_slime_crystal>
+[14:24:28.967][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_slimec_ender" that outputs: <item:tconstruct:ender_slime_crystal>
+[14:24:28.967][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:cast_diamond_on_dough" that outputs: <item:tconstruct:sky_slime_ball>
+[14:24:28.968][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:creative_gem" that outputs: <item:tconstruct:creative_ability>
+[14:24:28.968][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:creative_upgrade" that outputs: <item:modularrouters:creative_module>
+[14:24:28.968][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:debug_stick" that outputs: <item:minecraft:debug_stick>
+[14:24:28.968][DONE][CLIENT][INFO] Finished loading Scripts!
+[14:24:28.971][DONE][CLIENT][INFO] This reload was made possible by Gildrag 09 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

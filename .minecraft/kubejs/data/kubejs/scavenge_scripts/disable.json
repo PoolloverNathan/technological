@@ -1,0 +1,27 @@
+{
+    "scripts": {
+        "id": "technological:disable",
+        "swing": true,
+        "drop_rule": "block",
+        "properties": [],
+        "loot": [
+            {
+                "lootPool": "invalid",
+                "conditions": []
+            }
+        ],
+        "type": {
+            "type": "right_click",
+            "consume": true,
+            "show": true
+        },
+        "targets": [
+            {
+                "type": "blocks",
+                "id": [
+                    "minecraft:crafting_table"
+                ]
+            }
+        ]
+    }
+}

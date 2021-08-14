@@ -1,0 +1,52 @@
+{
+    "scripts": {
+        "id": "technological:attract_plant",
+        "swing": true,
+        "drop_rule": "block",
+        "properties": [
+            {
+                "property": "scavenge_player:is_hand"
+            },
+            {
+                "property": "scavenge_player:has_item",
+	            "item": "kubejs:overgrowth_fertilizer"
+            },
+            {
+                "property": "scavenge_utils:conditional_effect",
+                "test": {
+                    "property": "scavenge_player:real_player"
+                },
+                "true": {
+                    "property": "scavenge_player:add_exhaustion",
+                    "exhaustion": 0.1
+                },
+                "false": {
+                    "property": "scavenge_utils:default_effect"
+                }
+            },
+            {
+	            "property": "scavenge_player:consume_item",
+	            "amount": 1
+            }
+        ],
+        "loot": [
+            {
+                "lootPool": "kubejs:attract_plant",
+                "conditions": []
+            }
+        ],
+        "type": {
+            "type": "right_click",
+            "consume": true,
+            "show": true
+        },
+        "targets": [
+            {
+                "type": "blocks",
+                "id": [
+                    "kubejs:nothingness"
+                ]
+            }
+        ]
+    }
+}

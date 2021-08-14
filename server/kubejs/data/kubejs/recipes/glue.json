@@ -1,0 +1,50 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/iron"
+  },
+  "transitionalItem": {
+    "item": "kubejs:incomplete_super_glue"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_super_glue"
+        },
+        {
+          "tag": "forge:slimeballs"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_super_glue"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_super_glue"
+        },
+        {
+          "tag": "forge:nuggets/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_super_glue"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:super_glue",
+      "count": 1
+    }
+  ],
+  "loops": 1
+}

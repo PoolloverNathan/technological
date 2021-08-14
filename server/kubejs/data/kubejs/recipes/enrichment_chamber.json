@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mekanism:steel_casing"
+  },
+  "transitionalItem": {
+    "item": "kubejs:incomplete_enrichment_chamber"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_enrichment_chamber"
+        },
+        {
+          "item": "mekanism:alloy_infused"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_enrichment_chamber"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_enrichment_chamber"
+        },
+        {
+          "item": "minecraft:furnace"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_enrichment_chamber"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_enrichment_chamber"
+        },
+        {
+          "tag": "forge:glass_panes/black"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_enrichment_chamber"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_enrichment_chamber"
+        },
+        {
+          "tag": "forge:plates/brass"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_enrichment_chamber"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:enrichment_chamber",
+      "count": 1
+    }
+  ],
+  "loops": 2
+}

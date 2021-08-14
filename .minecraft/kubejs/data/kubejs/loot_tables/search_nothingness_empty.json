@@ -29,6 +29,12 @@
                 },
                 {
                     "type": "item",
+                    "weight": 2,
+                    "name": "kubejs:water_droplet",
+                    "quality": 3
+                },
+                {
+                    "type": "item",
                     "weight": 1,
                     "name": "kubejs:metal_chunk",
                     "quality": 3
