@@ -1164,6 +1164,7 @@
 			x: -2.0d,
 			y: 0.0d,
 			subtitle: "Sadly, I just made it and it got copyrighted.",
+			dependencies: ["4F47388912B0B215"],
 			size: 1.2d,
 			id: "59728835C929EDA9",
 			tasks: [{
@@ -1175,6 +1176,9 @@
 		{
 			x: 1.0d,
 			y: -2.0d,
+			hide_dependency_lines: true,
+			dependencies: ["4C79BDF40CA79413"],
+			hide: true,
 			id: "5623CD8608982E14",
 			tasks: [{
 				id: "56455A7A85ADEC6F",
@@ -1261,6 +1265,19 @@
 				id: "37523F93B5B69068",
 				type: "item",
 				item: "minecraft:stonecutter"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["360D4AADD666D733"],
+			hide: true,
+			id: "5C3D596603A9BF16",
+			tasks: [{
+				id: "623E7B9C71CF07CC",
+				type: "item",
+				item: "create:copper_nugget"
 			}]
 		}
 	]

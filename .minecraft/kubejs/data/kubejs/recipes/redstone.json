@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:overgrowth_fertilizer"
+    },
+    {
+      "fluid": "kubejs:liquifacted_coal",
+      "nbt": {},
+      "amount": 125
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "count": 2
+    }
+  ]
+}

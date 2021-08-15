@@ -1,0 +1,19 @@
+{
+	id: "64E9311E9250356C",
+	group: "",
+	order_index: 2,
+	filename: "powah",
+	title: "Powah",
+	icon: "powah:dielectric_paste",
+	default_quest_shape: "",
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		id: "65BAAD29A00E5223",
+		tasks: [{
+			id: "43746BDA4FC553A0",
+			type: "item",
+			item: "powah:dielectric_paste"
+		}]
+	}]
+}

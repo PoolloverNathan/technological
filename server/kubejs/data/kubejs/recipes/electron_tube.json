@@ -1,0 +1,50 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:nuggets/iron"
+  },
+  "transitionalItem": {
+    "item": "kubejs:incomplete_electron_tube"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_electron_tube"
+        },
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_electron_tube"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_electron_tube"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_electron_tube"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:electron_tube",
+      "count": 2
+    }
+  ],
+  "loops": 1
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:liquifacted_coal",
+      "amount": 250
+    }
+  ]
+}

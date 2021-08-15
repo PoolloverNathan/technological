@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mekanism:hdpe_sheet"
+  },
+  "transitionalItem": {
+    "item": "kubejs:incomplete_glow_panel"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_glow_panel"
+        },
+        {
+          "item": "mekanism:hdpe_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_glow_panel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_glow_panel"
+        },
+        {
+          "tag": "forge:dusts/glowstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_glow_panel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_glow_panel"
+        },
+        {
+          "tag": "forge:glass_panes"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_glow_panel"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanismadditions:light_gray_glow_panel",
+      "count": 1
+    }
+  ],
+  "loops": 1
+}

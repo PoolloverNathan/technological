@@ -888,6 +888,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/pulley_block": {
+    "criteria": {
+      "has_plank": "2021-08-13 11:04:57 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_the_recipe": "2021-07-27 13:07:04 -0400"
@@ -4039,6 +4045,12 @@
     },
     "done": true
   },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2021-08-13 11:04:57 -0400"
+    },
+    "done": true
+  },
   "refinedstorage:recipes/refinedstorage/coloring_recipes/pink_security_manager": {
     "criteria": {
       "has_the_recipe": "2021-07-27 13:07:03 -0400"
@@ -4384,6 +4396,12 @@
   "create:recipes/create.palettes/ornate_iron_window": {
     "criteria": {
       "has_the_recipe": "2021-07-27 13:07:02 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/make_steel": {
+    "criteria": {
+      "steel": "2021-08-13 11:10:08 -0400"
     },
     "done": true
   },
@@ -7699,6 +7717,12 @@
     },
     "done": true
   },
+  "create:shadow_steel": {
+    "criteria": {
+      "0": "2021-08-13 11:29:45 -0400"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/gunpart_drum": {
     "criteria": {
       "has_the_recipe": "2021-07-27 13:07:10 -0400"
@@ -8818,6 +8842,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/conveyor_covered": {
     "criteria": {
       "has_the_recipe": "2021-07-27 13:07:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2021-08-13 10:26:39 -0400"
     },
     "done": true
   },
@@ -13328,6 +13358,12 @@
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2021-08-13 11:26:08 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2021-07-30 15:18:38 -0400"
@@ -16307,6 +16343,12 @@
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/fuel_gauge": {
     "criteria": {
       "has_the_recipe": "2021-07-27 13:07:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2021-08-13 11:26:08 -0400"
     },
     "done": true
   },

@@ -66,7 +66,7 @@
 [Router]
 	#Hard minimum tick interval for a router regardless of Speed Upgrades
 	#Range: > 1
-	hardMinTickRate = 2
+	hardMinTickRate = 1
 	#Number of ticks by which 1 Speed Upgrade will reduce the router's tick interval
 	#Range: > 1
 	ticksPerUpgrade = 2
@@ -86,7 +86,7 @@
 	blockBreakXPDrops = true
 	#Base tick interval (in server ticks) for a router; router will run this often
 	#Range: > 1
-	baseTickRate = 20
+	baseTickRate = 1
 	#Max fluid transfer rate (mB/t in each direction) for a router
 	#Range: > 1
 	fluidMaxTransferRate = 400
@@ -100,7 +100,7 @@
 ["Energy Costs"]
 	#Energy cost (FE) to run one left-click (attack) operation for the Activator Module
 	#Range: > 0
-	activatorModuleEnergyCostAttack = 150
+	activatorModuleEnergyCostAttack = 0
 	#Energy cost (FE) to run one operation for the Breaker Module
 	#Range: > 0
 	breakerModuleEnergyCost = 0

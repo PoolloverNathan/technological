@@ -54,7 +54,8 @@
 			hide_dependency_lines: true,
 			dependencies: [
 				"623E28D59A4550BB",
-				"3D4BC9CAD17E1055"
+				"3D4BC9CAD17E1055",
+				"76040B2AFFD86D86"
 			],
 			hide: true,
 			size: 1.2d,
@@ -174,13 +175,16 @@
 		},
 		{
 			title: "Real iron bars!",
-			x: 1.0d,
-			y: 1.0d,
+			x: 2.0d,
+			y: 2.0d,
 			subtitle: "Not that ingot stuff",
 			description: [""],
-			hide_dependency_lines: true,
-			dependencies: ["4F47388912B0B215"],
-			hide: true,
+			hide_dependency_lines: false,
+			dependencies: [
+				"4F47388912B0B215",
+				"1D0E8783473D8EAD"
+			],
+			hide: false,
 			size: 1.2d,
 			id: "46BF3A65E4EC22FF",
 			tasks: [{
@@ -206,8 +210,8 @@
 			}]
 		},
 		{
-			x: 2.0d,
-			y: 1.0d,
+			x: 3.0d,
+			y: 2.0d,
 			hide_dependency_lines: true,
 			dependencies: [
 				"46BF3A65E4EC22FF",
@@ -224,6 +228,9 @@
 		{
 			x: 3.0d,
 			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["36A8C4E6D17C020A"],
+			hide: true,
 			id: "39F490136D161B08",
 			tasks: [{
 				id: "0E01C52B7D1B0751",
@@ -250,7 +257,7 @@
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 3.0d,
 			y: -2.0d,
 			hide_dependency_lines: true,
 			dependencies: [
@@ -299,6 +306,133 @@
 				id: "453BE514B7C6F7E8",
 				type: "item",
 				item: "create:deployer"
+			}]
+		},
+		{
+			title: "the dust is red",
+			x: 4.0d,
+			y: -2.0d,
+			subtitle: "and very conductive",
+			hide_dependency_lines: true,
+			dependencies: [
+				"0FE6D139F2219BCF",
+				"2D6B8B50C81B62BD",
+				"56248601C71DE32C",
+				"7EAD5983C3B4328E"
+			],
+			hide: true,
+			id: "6C54598FDA785DCC",
+			tasks: [{
+				id: "30EE7C117406BA85",
+				type: "item",
+				item: "minecraft:redstone"
+			}]
+		},
+		{
+			title: "the quartz is red",
+			x: 5.0d,
+			y: -2.0d,
+			subtitle: "and not conductive",
+			hide_dependency_lines: true,
+			dependencies: [
+				"6C54598FDA785DCC",
+				"16A00460BB0741D3"
+			],
+			hide: true,
+			id: "686C6871A2607AAD",
+			tasks: [{
+				id: "7D6CC12D404F0493",
+				type: "item",
+				item: "create:rose_quartz"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.0d,
+			hide_dependency_lines: true,
+			dependencies: ["5402FBF01B11E388"],
+			hide: true,
+			id: "739C2FF7F5C49B4E",
+			tasks: [{
+				id: "41556ECE76E27CF4",
+				type: "item",
+				item: "minecraft:kelp"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			hide_dependency_lines: true,
+			dependencies: ["739C2FF7F5C49B4E"],
+			hide: true,
+			id: "170083258B47BC43",
+			tasks: [{
+				id: "05B3E9A84B72F1F9",
+				type: "item",
+				item: "minecraft:dried_kelp"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			hide_dependency_lines: true,
+			dependencies: ["5402FBF01B11E388"],
+			hide: true,
+			id: "2485F09EAC443A7E",
+			tasks: [{
+				id: "6097B61AEC486CF8",
+				type: "item",
+				item: "create:copper_sheet"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["2485F09EAC443A7E"],
+			hide: true,
+			id: "56DBF89B1D16F748",
+			tasks: [{
+				id: "4D856494090E2761",
+				type: "item",
+				item: "create:copper_casing"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["56DBF89B1D16F748"],
+			hide: true,
+			id: "5625C7256ED8ADF5",
+			tasks: [{
+				id: "2D89ECE73B993A26",
+				type: "item",
+				item: "create:fluid_tank"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -3.0d,
+			id: "36A8C4E6D17C020A",
+			tasks: [{
+				id: "5DE9B84EFD0EF1E3",
+				type: "item",
+				item: "create:spout"
+			}]
+		},
+		{
+			title: "Cutting-edge technology",
+			x: 2.0d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["5A25F42DDDF990D7"],
+			hide: true,
+			id: "1D0E8783473D8EAD",
+			tasks: [{
+				id: "4B86D119F27EEEF8",
+				type: "item",
+				item: "create:mechanical_saw"
 			}]
 		}
 	]

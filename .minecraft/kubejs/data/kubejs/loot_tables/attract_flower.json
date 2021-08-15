@@ -1,0 +1,74 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:dandelion"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:poppy"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blue_orchid"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:allium"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:azure_bluet"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_tulip"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:orange_tulip"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:white_tulip"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:pink_tulip"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:oxeye_daisy"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cornflower"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lily_of_the_valley"
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:wither_rose"
+                }
+            ]
+        }
+    ]
+}

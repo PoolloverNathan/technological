@@ -1,0 +1,19 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "tag": "forge:ingots/steel"
+	},,
+	{
+	  "tag": "forge:ingots/brass"
+	}
+	{
+	  "tag": "forge:ingots/gold"
+	}
+  ],
+  "energy": 10000,
+  "result": {
+	"item": "powah:steel_energized",
+	"count": 3
+  }
+}
