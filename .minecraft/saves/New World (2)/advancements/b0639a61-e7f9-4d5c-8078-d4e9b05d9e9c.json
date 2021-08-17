@@ -8544,6 +8544,12 @@
     },
     "done": true
   },
+  "tconstruct:tools/part_builder": {
+    "criteria": {
+      "crafted_block": "2021-08-17 14:21:05 -0400"
+    },
+    "done": true
+  },
   "refinedstorage:recipes/refinedstorage/crafting_grid/orange_crafting_grid": {
     "criteria": {
       "has_the_recipe": "2021-08-13 18:32:08 -0400"
@@ -15238,6 +15244,12 @@
   "psi:recipes/psi/cad_colorizer_light_blue": {
     "criteria": {
       "has_the_recipe": "2021-08-13 18:32:07 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:tools/tinker_station": {
+    "criteria": {
+      "crafted_block": "2021-08-17 14:21:05 -0400"
     },
     "done": true
   },
