@@ -1,0 +1,70 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "kubejs:liquifacted_coal",
+      "nbt": {},
+      "amount": 1000
+    },
+    {
+      "fluid": "kubejs:warm_water",
+      "nbt": {},
+      "amount": 1000
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    },
+    {
+      "item": "kubejs:fuel_pellet"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:very_warm_water",
+      "nbt": {},
+      "amount": 500
+    }
+  ]
+}

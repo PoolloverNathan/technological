@@ -179,12 +179,12 @@
 			y: 2.0d,
 			subtitle: "Not that ingot stuff",
 			description: [""],
-			hide_dependency_lines: false,
+			hide_dependency_lines: true,
 			dependencies: [
 				"4F47388912B0B215",
 				"1D0E8783473D8EAD"
 			],
-			hide: false,
+			hide: true,
 			size: 1.2d,
 			id: "46BF3A65E4EC22FF",
 			tasks: [{
@@ -210,8 +210,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 2.0d,
+			x: 2.0d,
+			y: 1.0d,
 			hide_dependency_lines: true,
 			dependencies: [
 				"46BF3A65E4EC22FF",
@@ -299,8 +299,14 @@
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 2.0d,
+			x: 6.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"613CC3B1585B15E8",
+				"353689C9B7324498"
+			],
+			hide: true,
 			id: "2A943600F901FC08",
 			tasks: [{
 				id: "453BE514B7C6F7E8",
@@ -350,7 +356,10 @@
 			x: 1.0d,
 			y: -2.0d,
 			hide_dependency_lines: true,
-			dependencies: ["5402FBF01B11E388"],
+			dependencies: [
+				"5402FBF01B11E388",
+				"00910AEF2E405A94"
+			],
 			hide: true,
 			id: "739C2FF7F5C49B4E",
 			tasks: [{
@@ -414,6 +423,13 @@
 		{
 			x: 2.0d,
 			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"5625C7256ED8ADF5",
+				"170083258B47BC43",
+				"5C3D596603A9BF16"
+			],
+			hide: true,
 			id: "36A8C4E6D17C020A",
 			tasks: [{
 				id: "5DE9B84EFD0EF1E3",
@@ -423,7 +439,7 @@
 		},
 		{
 			title: "Cutting-edge technology",
-			x: 2.0d,
+			x: 1.0d,
 			y: 1.0d,
 			hide_dependency_lines: true,
 			dependencies: ["5A25F42DDDF990D7"],
@@ -433,6 +449,256 @@
 				id: "4B86D119F27EEEF8",
 				type: "item",
 				item: "create:mechanical_saw"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"46DE7375F58501DA",
+				"366DFF15CC686EF7",
+				"00910AEF2E405A94"
+			],
+			hide: true,
+			id: "59CE5DAB74B7179F",
+			tasks: [{
+				id: "3D3089E41F534C92",
+				type: "item",
+				item: "minecraft:grass_block"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"623E28D59A4550BB",
+				"2485F09EAC443A7E"
+			],
+			hide: true,
+			id: "366DFF15CC686EF7",
+			tasks: [{
+				id: "0685D2400E66CFA9",
+				type: "item",
+				item: "create:fluid_pipe"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"366DFF15CC686EF7",
+				"623E28D59A4550BB"
+			],
+			hide: true,
+			id: "46DE7375F58501DA",
+			tasks: [{
+				id: "4D353A3914641871",
+				type: "item",
+				item: "create:mechanical_pump"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["4596EB53C553EFB1"],
+			hide: true,
+			id: "0D021B055811B875",
+			tasks: [{
+				id: "486D413E0F483FBA",
+				type: "item",
+				item: "create:brass_casing"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"0D021B055811B875",
+				"686C6871A2607AAD"
+			],
+			hide: true,
+			id: "150EA75E5825FB53",
+			tasks: [{
+				id: "10089F0132F3AC90",
+				type: "item",
+				item: "create:mechanical_crafter"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 2.0d,
+			hide_dependency_lines: true,
+			dependencies: ["150EA75E5825FB53"],
+			hide: true,
+			id: "474379D6C973AC81",
+			tasks: [{
+				id: "38E16B2D790EE919",
+				type: "item",
+				item: "create:crushing_wheel"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"623E28D59A4550BB",
+				"7C217EB839D1175A"
+			],
+			hide: true,
+			id: "55614389A443CA87",
+			tasks: [{
+				id: "39E42C0CB21914D2",
+				type: "item",
+				item: "create:millstone"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -5.0d,
+			hide_dependency_lines: true,
+			dependencies: ["59CE5DAB74B7179F"],
+			hide: true,
+			id: "208897CD04102747",
+			tasks: [{
+				id: "5B628373A20ECCC6",
+				type: "item",
+				item: "kubejs:grass_dust"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["55614389A443CA87"],
+			hide: true,
+			id: "6D9E5C284A3CDDE3",
+			tasks: [{
+				id: "5E7B3A8307182905",
+				type: "item",
+				item: "kubejs:plant_dust"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["55614389A443CA87"],
+			hide: true,
+			id: "1A8797AF7EA5E1E5",
+			tasks: [{
+				id: "6D2C59BF7CB85D23",
+				type: "item",
+				item: "minecraft:sugar"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"208897CD04102747",
+				"6D9E5C284A3CDDE3",
+				"1A8797AF7EA5E1E5"
+			],
+			hide: true,
+			id: "681EDC2288618538",
+			tasks: [{
+				id: "640E37A4A8496F8D",
+				type: "item",
+				item: "minecraft:sugar_cane"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -7.0d,
+			hide_dependency_lines: true,
+			dependencies: ["681EDC2288618538"],
+			hide: true,
+			id: "42DF966DB803B2EC",
+			tasks: [{
+				id: "603CE10C7AAF0708",
+				type: "item",
+				item: "minecraft:paper"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -8.0d,
+			hide_dependency_lines: true,
+			dependencies: ["42DF966DB803B2EC"],
+			hide: true,
+			id: "1E716C2C3505033F",
+			tasks: [{
+				id: "4C79E4804EB8175A",
+				type: "item",
+				item: {
+					id: "create:sand_paper",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"686C6871A2607AAD",
+				"1E716C2C3505033F"
+			],
+			hide: true,
+			id: "3DE1A52187A17259",
+			tasks: [{
+				id: "223DA059A8B3BFDD",
+				type: "item",
+				item: "create:polished_rose_quartz"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["6C54598FDA785DCC"],
+			hide: true,
+			id: "0B0E2EF96E01A13B",
+			tasks: [{
+				id: "60856D773D5BA854",
+				type: "item",
+				item: "minecraft:redstone_torch"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["0B0E2EF96E01A13B"],
+			hide: true,
+			id: "353689C9B7324498",
+			tasks: [{
+				id: "5BBF2EBCC9EF9990",
+				type: "item",
+				item: "create:electron_tube"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["2D6B8B50C81B62BD"],
+			hide: true,
+			id: "27EB83F20B027C75",
+			tasks: [{
+				id: "320DD0C7B9D9039F",
+				type: "item",
+				item: "immersiveengineering:ingot_steel"
 			}]
 		}
 	]

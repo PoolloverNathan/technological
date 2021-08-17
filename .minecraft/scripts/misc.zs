@@ -1,3 +1,5 @@
+import crafttweaker.api.recipe.Replacer;
+
 val air = <item:minecraft:air>;
 <item:kubejs:fuel_pellet>.burnTime = 200;
 craftingTable.removeRecipe(<item:powah:dielectric_paste>);
@@ -15,3 +17,6 @@ for a in [["copper", "create:copper_ore"], ["iron", "minecraft:iron_ore"], ["zin
 }
 craftingTable.addShaped("hydrate_clay", <item:minecraft:clay>, [[<item:kubejs:water_droplet>, <item:kubejs:water_droplet>, <item:kubejs:water_droplet>], [<item:kubejs:water_droplet>, <item:minecraft:dirt>, <item:kubejs:water_droplet>], [<item:kubejs:water_droplet>, <item:kubejs:water_droplet>, <item:kubejs:water_droplet>]]);
 craftingTable.removeRecipe(<item:minecraft:iron_bars>);
+craftingTable.removeRecipe(<item:minecraft:crafting_table>);
+craftingTable.removeByName("tconstruct:tables/crafting_station");
+Replacer.forTypes(craftingTable).replace(<item:minecraft:crafting_table>, <tag:items:forge:workbenches>).execute();
