@@ -12,6 +12,8 @@ onEvent("item.registry", event => {
 	event.create("resonating_iron").displayName("Resonating Iron")
 	event.create("conductive_flint").displayName("Conductive Flint");
 	event.create("dirt_dust").displayName("Tiny Pile of Dirt");
+	event.create("grass_dust").displayName("Crushed Grass");
+	event.create("plant_dust").displayName("Milled Flower");
 	event.create("water_droplet").displayName("Drop of Water");
 	event.create("overgrowth_fertilizer").displayName("Fertilizer of Overgrowth");
 	event.create("overgrown_cutting").displayName("Overgrown Cutting");
@@ -61,4 +63,8 @@ onEvent("fluid.registry", event => {
 	event.create("liquifacted_coal").textureThin(0x444444).bucketColor(0x444444).displayName("Liquifacted Coal");
 	event.create("creative_essence").textureThin(0xFF00FF).bucketColor(0xFF00FF).displayName("Essence of Pure Creativity");
 	event.create("molten_nether_star").textureThin(0xFFFFFF).bucketColor(0xFFFFFF).displayName("Molten Nether Star");
+	event.create("lukewarm_water").textureThin(0x5376e4).bucketColor(0x5376e4).displayName("Lukewarm Water");
+	event.create("warm_water").textureThin(0x6776e4).bucketColor(0x6776e4).displayName("Warm Water");
+	event.create("very_warm_water").textureThin(0x7b76e4).bucketColor(0x7b76e4).displayName("Very Warm Water");
+	event.create("hot_water").textureThin(0x8f76e4).bucketColor(0x8f76e4).displayName("Hot Water");
 })
