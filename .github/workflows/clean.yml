@@ -85,9 +85,12 @@ jobs:
           rm -rf {.minecraft,server}/{logs,crash-reports}
       - name: Delete excess things
         run: |
-          rm -rf mods/{ftb-quests,Scavenge}*
+          rm -rf mods/{ftb-quests,Scavenge,fancy{hud,menu}}*
           rm -rf configs/{ftbquests}
           rm -rf kubejs/data/kubejs/{loot_tables,scavenge_scripts}
+      - name: Update configuration
+        run: |
+          sed -i instance.cfg -e "s/name=TECHNOLOGICAL/name=Technological Lite/"
 #      - name: Generate custom server world
 #        run: cp -r server/{worldt,world}
       
