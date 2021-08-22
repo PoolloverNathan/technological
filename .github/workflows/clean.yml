@@ -6,7 +6,7 @@ name: Clean
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ devel ]
+    branches: [ devel, master ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -54,4 +54,48 @@ jobs:
       - name: Push new commit
         run: |
           git push -fu origin clean
-          
+
+  lite:
+      # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: devel
+        
+      - name: Set authorship
+        run: |
+          git config user.name "CCleaner"
+
+      - name: Reset lite branch
+        run: git branch -f lite devel
+
+      - name: Use lite branch
+        run: git checkout lite
+     
+      - name: Delete personal files
+        run: |
+          rm -rf .minecraft/saves
+          rm -rf server/*world
+          rm -rf .minecraft/XaeroWaypoints*
+          rm -rf {.minecraft,server}/{logs,crash-reports}
+      - name: Delete excess things
+        run: |
+          rm -rf mods/{ftb-quests,Scavenge}*
+          rm -rf configs/{ftbquests}
+          rm -rf kubejs/data/kubejs/{loot_tables,scavenge_scripts}
+#      - name: Generate custom server world
+#        run: cp -r server/{worldt,world}
+      
+      - name: Generate commit
+        run: |
+          git add -A
+          git commit -m "This is the lite branch. Commits here will be lost." -m "Commit to the devel branch to prevent change resetting."
+      
+      - name: Push new commit
+        run: |
+          git push -fu origin lite
