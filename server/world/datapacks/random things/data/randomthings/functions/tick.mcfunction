@@ -1,1 +1,0 @@
-execute as @e[type=item] at @s if block ~ ~ ~ water if entity @s[nbt={Item:{id:"create:wheat_flour"}}] run data modify entity @s Item.id set value "create:dough"

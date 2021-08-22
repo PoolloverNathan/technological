@@ -1,1 +1,0 @@
-execute as @e[type=item] run function magentaconveyors:item
