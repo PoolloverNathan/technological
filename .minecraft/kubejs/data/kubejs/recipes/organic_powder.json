@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "kubejs:nothingness"
+    },
+    {
+      "item": "kubejs:crushed_grass"
+    },
+    {
+      "item": "kubejs:milled_leaves"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:organic_powder",
+      "nbt": {},
+      "amount": 1000
+    }
+  ]
+}

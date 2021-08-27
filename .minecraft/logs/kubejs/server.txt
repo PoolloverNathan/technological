@@ -1,21 +1,23 @@
-[10:57:03] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[10:57:03] [INFO] SourceFile:18: Loaded script server_scripts:script.js in 0.001 s
-[10:57:03] [INFO] SourceFile:18: Loaded 1/1 KubeJS server scripts in 0.004 s
-[10:57:03] [INFO] Scripts loaded
-[10:57:03] [INFO] Scanning recipes...
-[10:57:06] [INFO] [blocks] Found 343 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [items] Found 654 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [fluids] Found 85 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [entity_types] Found 18 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [pigments] Found 0 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [slurries] Found 2 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
-[10:57:06] [INFO] [gases] Found 5 tags, added 0 objects, removed 0 objects
-[10:57:06] [WARN] Failed to parse recipe 'kubejs:cake_from_mixing[create:mixing]'! Falling back to vanilla: java.lang.IllegalStateException: Can't modify the empty stack.
-[10:57:06] [WARN] Failed to parse recipe kubejs:cake_from_mixing[create:mixing]:
-[10:57:06] [WARN] Failed to parse recipe 'supplementaries:flower_box[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
-[10:57:06] [WARN] Failed to parse recipe supplementaries:flower_box[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
-[10:57:07] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[17:26:13] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[17:26:13] [INFO] SourceFile:18: Loaded script server_scripts:script.js in 0.002 s
+[17:26:13] [INFO] SourceFile:18: Loaded 1/1 KubeJS server scripts in 0.013 s
+[17:26:13] [INFO] Scripts loaded
+[17:26:13] [INFO] Scanning recipes...
+[17:26:15] [INFO] [blocks] Found 351 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [items] Found 675 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [fluids] Found 85 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [entity_types] Found 27 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[17:26:15] [INFO] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[17:26:15] [WARN] Failed to parse recipe 'kubejs:organic_powder[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'kubejs:crushed_grass'
+[17:26:15] [WARN] Failed to parse recipe kubejs:organic_powder[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'kubejs:crushed_grass'
+[17:26:16] [WARN] Failed to parse recipe 'kubejs:cake_from_mixing[create:mixing]'! Falling back to vanilla: java.lang.IllegalStateException: Can't modify the empty stack.
+[17:26:16] [WARN] Failed to parse recipe kubejs:cake_from_mixing[create:mixing]:
+[17:26:16] [WARN] Failed to parse recipe 'supplementaries:flower_box[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
+[17:26:16] [WARN] Failed to parse recipe supplementaries:flower_box[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
+[17:26:17] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects

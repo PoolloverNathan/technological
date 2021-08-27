@@ -6,14 +6,113 @@
 	title: "Powah",
 	icon: "powah:dielectric_paste",
 	default_quest_shape: "",
-	quests: [{
-		x: 0.0d,
-		y: 0.0d,
-		id: "65BAAD29A00E5223",
-		tasks: [{
-			id: "43746BDA4FC553A0",
-			type: "item",
-			item: "powah:dielectric_paste"
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: "65BAAD29A00E5223",
+			tasks: [{
+				id: "43746BDA4FC553A0",
+				type: "item",
+				item: "powah:dielectric_paste"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["65BAAD29A00E5223"],
+			hide: true,
+			id: "5F7A4D66E9B3F238",
+			tasks: [{
+				id: "7B2510026453CAC7",
+				type: "item",
+				item: "powah:dielectric_rod_horizontal"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["65BAAD29A00E5223"],
+			hide: true,
+			id: "5E8CB16ADBB12D02",
+			tasks: [{
+				id: "3694E30DBF5AB1D1",
+				type: "item",
+				item: "powah:dielectric_rod"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"5E8CB16ADBB12D02",
+				"5F7A4D66E9B3F238"
+			],
+			hide: true,
+			id: "3ADA73C52A1D5776",
+			tasks: [{
+				id: "2D72B0C1399DFCBD",
+				type: "item",
+				item: "powah:dielectric_casing"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["65BAAD29A00E5223"],
+			hide: true,
+			id: "01E41E10180BCBF7",
+			tasks: [{
+				id: "056D6C5A715045A9",
+				type: "item",
+				item: "powah:capacitor_basic"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"6C181C4BDFFACA21",
+				"3ADA73C52A1D5776"
+			],
+			hide: true,
+			id: "1230F69434FAFEEE",
+			tasks: [{
+				id: "4ED397E84A45E1AE",
+				type: "item",
+				item: "powah:energizing_rod_starter"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["01E41E10180BCBF7"],
+			hide: true,
+			id: "6C181C4BDFFACA21",
+			tasks: [{
+				id: "626CFD3380437430",
+				type: "item",
+				item: "powah:capacitor_basic_tiny"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["01E41E10180BCBF7"],
+			hide: true,
+			id: "74C577DC3D7694F0",
+			tasks: [{
+				id: "05BF8BC18DA5932A",
+				type: "item",
+				item: "powah:capacitor_basic_large"
+			}]
+		}
+	]
 }

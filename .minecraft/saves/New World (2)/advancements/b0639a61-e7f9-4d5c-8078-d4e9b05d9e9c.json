@@ -1632,6 +1632,12 @@
     },
     "done": true
   },
+  "occultism:root": {
+    "criteria": {
+      "occultism_present": "2021-08-19 13:30:59 -0400"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/common/materials/tinkers_bronze_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2021-08-13 18:32:10 -0400"
@@ -2205,6 +2211,12 @@
   "supplementaries:recipes/netherite_trapdoor": {
     "criteria": {
       "has_the_recipe": "2021-08-13 18:32:10 -0400"
+    },
+    "done": true
+  },
+  "occultism:summon_marid_crusher": {
+    "criteria": {
+      "summon_marid_crusher": "2021-08-19 14:01:29 -0400"
     },
     "done": true
   },
@@ -9012,6 +9024,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2021-08-19 14:01:29 -0400"
+    },
+    "done": true
+  },
   "psi:recipes/psi/psimetal_plate_black": {
     "criteria": {
       "has_the_recipe": "2021-08-13 18:32:09 -0400"
@@ -10588,6 +10606,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_the_recipe": "2021-08-13 18:32:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2021-08-19 13:54:41 -0400"
     },
     "done": true
   },
@@ -12796,6 +12820,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/stairs_steel_scaffolding_wooden_top": {
     "criteria": {
       "has_the_recipe": "2021-08-13 18:32:09 -0400"
+    },
+    "done": true
+  },
+  "occultism:summon_foliot_cleaner": {
+    "criteria": {
+      "summon_foliot_cleaner": "2021-08-19 14:11:07 -0400"
     },
     "done": true
   },

@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " CCC ",
+    "CPPPC",
+    "CP+PC",
+    "CP+PC",
+    " +++ "
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "tag": "tconstruct:casts/multi_use/blank"
+    },
+    "+": {
+      "item": "kubejs:wand_casing"
+    }
+  },
+  "result": {
+    "item": "kubejs:wand_tip",
+    "count": 1
+  }
+}

@@ -1,1 +1,48 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "occultism:dictionary_of_debug": {
+      "viewedEntries": [
+        "occultism:pentacles_debug"
+      ],
+      "bookmarks": [],
+      "history": [
+        "occultism:pentacles_debug"
+      ],
+      "completedManualQuests": []
+    },
+    "occultism:dictionary_of_spirits": {
+      "viewedEntries": [
+        "occultism:rituals/crafting/craft_miner_spirits",
+        "occultism:pentacles/summon_marid",
+        "occultism:rituals/summoning/summon_crusher",
+        "occultism:rituals/summoning/summon_cleaner",
+        "occultism:pentacles/summon_foliot",
+        "occultism:rituals/summoning/summon_lumberjack",
+        "occultism:rituals/summoning/summon_transport_items",
+        "occultism:rituals/summoning/summon_otherstone_trader",
+        "occultism:rituals/summoning/summon_otherworld_sapling_trader",
+        "occultism:spirits/books_of_calling",
+        "occultism:spirits/essence_decay",
+        "occultism:spirits/overview"
+      ],
+      "bookmarks": [],
+      "history": [
+        "occultism:rituals/summoning/summon_crusher",
+        "occultism:pentacles/summon_foliot",
+        "occultism:rituals/summoning/summon_otherstone_trader",
+        "occultism:spirits/overview",
+        "occultism:spirits/essence_decay",
+        "occultism:rituals/summoning/summon_cleaner",
+        "occultism:spirits/books_of_calling",
+        "occultism:rituals/summoning/summon_lumberjack",
+        "occultism:rituals/summoning/summon_otherworld_sapling_trader",
+        "occultism:rituals/summoning/summon_transport_items",
+        "occultism:pentacles/summon_marid",
+        "occultism:rituals/crafting/craft_miner_spirits"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

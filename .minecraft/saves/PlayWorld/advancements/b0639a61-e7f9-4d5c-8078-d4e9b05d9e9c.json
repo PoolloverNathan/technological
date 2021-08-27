@@ -1625,6 +1625,12 @@
     },
     "done": true
   },
+  "occultism:root": {
+    "criteria": {
+      "occultism_present": "2021-08-19 13:27:51 -0400"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/common/materials/tinkers_bronze_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2021-08-15 19:00:11 -0400"

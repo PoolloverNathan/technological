@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "smooth_stone"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 50
+    }
+  ],
+  "heatRequirement": "heated"
+}

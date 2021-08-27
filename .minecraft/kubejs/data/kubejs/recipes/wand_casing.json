@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " PPP ",
+    "PPPPP",
+    "PPOPP",
+    "PPPPP",
+    " PPP "
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "O": {
+      "tag": "forge:obsidian"
+    }
+  },
+  "result": {
+    "item": "kubejs:wand_casing",
+    "count": 2
+  }
+}

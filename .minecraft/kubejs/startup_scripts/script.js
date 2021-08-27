@@ -13,15 +13,22 @@ onEvent("item.registry", event => {
 	event.create("conductive_flint").displayName("Conductive Flint");
 	event.create("dirt_dust").displayName("Tiny Pile of Dirt");
 	event.create("grass_dust").displayName("Crushed Grass");
-	event.create("plant_dust").displayName("Milled Flower");
+	event.create("milled_leaves").displayName("Milled Leaves");
+	event.create("pulverized_wood").displayName("Pulverized Wood");
 	event.create("water_droplet").displayName("Drop of Water");
 	event.create("overgrowth_fertilizer").displayName("Fertilizer of Overgrowth");
-	event.create("overgrown_cutting").displayName("Overgrown Cutting");
 	event.create("pebble").displayName("Pebble");
 	event.create("metal_chunk").displayName("Metallic Chunk");
 	event.create("ball_gold_cast").displayName("Ball Gold Cast")
 	event.create("slime_crystal_gold_cast").displayName("Slime Crystal Gold Cast");
 	event.create("fuel_pellet").displayName("Fuel Pellet");
+	event.create("wand_casing").displayName("Wand Casing");
+	event.create("wand_grip").displayName("Wand Grip");
+	event.create("wand_cap").displayName("Wand Cap");
+	event.create("wand_tip").displayName("Wand Tip");
+	event.create("wand_core").displayName("Wand Core");
+	event.create("wand").displayName("Magic Wand");
+	event.create("wand_filled").displayName("Magic Wand (Filled)");
 	event.create("incomplete_glow_panel").displayName("Incomplete Glow Panel");
 	event.create("incomplete_super_glue").displayName("Incomplete Super Glue");
 	event.create("incomplete_electron_tube").displayName("Incomplete Electron Tube");
@@ -67,4 +74,6 @@ onEvent("fluid.registry", event => {
 	event.create("warm_water").textureThin(0x6776e4).bucketColor(0x6776e4).displayName("Warm Water");
 	event.create("very_warm_water").textureThin(0x7b76e4).bucketColor(0x7b76e4).displayName("Very Warm Water");
 	event.create("hot_water").textureThin(0x8f76e4).bucketColor(0x8f76e4).displayName("Hot Water");
+	event.create("organic_compound").textureThin(0x00aa00).bucketColor(0x00aa00).displayName("Organic Compound");
+	event.create("life_essence").textureThin(0x00ff00).bucketColor(0x00ff00).displayName("Essence of Life");
 })
