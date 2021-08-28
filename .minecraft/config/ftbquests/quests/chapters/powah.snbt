@@ -10,6 +10,10 @@
 		{
 			x: 0.0d,
 			y: 0.0d,
+			dependencies: [
+				"458D10EAF58D6314",
+				"2D6B8B50C81B62BD"
+			],
 			id: "65BAAD29A00E5223",
 			tasks: [{
 				id: "43746BDA4FC553A0",

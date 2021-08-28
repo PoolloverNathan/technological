@@ -76,4 +76,17 @@ onEvent("fluid.registry", event => {
 	event.create("hot_water").textureThin(0x8f76e4).bucketColor(0x8f76e4).displayName("Hot Water");
 	event.create("organic_compound").textureThin(0x00aa00).bucketColor(0x00aa00).displayName("Organic Compound");
 	event.create("life_essence").textureThin(0x00ff00).bucketColor(0x00ff00).displayName("Essence of Life");
-})
+});
+
+onEvent("item.modification", event => {
+  event.modify("minecraft:apple", item => {
+    item.foodProperties(food => {
+      food.hunger(20);
+      food.saturation(20);
+      food.meat(false);
+      food.alwaysEdible(true);
+      food.fastToEat(true);
+      food.effect("minecraft:slowness", 5, 1, 100);
+    });
+  });
+});

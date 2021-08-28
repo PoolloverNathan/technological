@@ -1282,6 +1282,21 @@
 				type: "item",
 				item: "create:copper_nugget"
 			}]
+		},
+		{
+			title: "Seared faucet on steroids",
+			x: -3.0d,
+			y: 2.0d,
+			subtitle: "fluids = ez",
+			hide_dependency_lines: true,
+			dependencies: ["4DA8274BBA6AB6A2"],
+			hide: true,
+			id: "53C4ABC94E9EEE7F",
+			tasks: [{
+				id: "6E977B37F3AA3197",
+				type: "item",
+				item: "supplementaries:faucet"
+			}]
 		}
 	]
 }

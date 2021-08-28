@@ -581,7 +581,7 @@
 			tasks: [{
 				id: "5E7B3A8307182905",
 				type: "item",
-				item: "kubejs:plant_dust"
+				item: "kubejs:milled_leaves"
 			}]
 		},
 		{
@@ -699,6 +699,19 @@
 				id: "320DD0C7B9D9039F",
 				type: "item",
 				item: "immersiveengineering:ingot_steel"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["6C54598FDA785DCC"],
+			hide: true,
+			id: "458D10EAF58D6314",
+			tasks: [{
+				id: "2372295BA3BE2CF2",
+				type: "item",
+				item: "minecraft:lava_bucket"
 			}]
 		}
 	]

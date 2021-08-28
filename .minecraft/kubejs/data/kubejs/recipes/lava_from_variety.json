@@ -1,0 +1,61 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "smooth_stone"
+    },
+    {
+      "item": "smooth_stone"
+    },
+    {
+      "item": "smooth_stone"
+    },
+    {
+      "item": "quartz"
+    },
+    {
+      "item": "quartz"
+    },
+    {
+      "item": "quartz"
+    },
+    {
+      "item": "quartz"
+    },
+    {
+      "item": "tconstruct:seared_brick"
+    },
+    {
+      "item": "tconstruct:seared_brick"
+    },
+    {
+      "item": "tconstruct:seared_brick"
+    },
+    {
+      "item": "tconstruct:seared_brick"
+    },
+    {
+      "item": "tconstruct:seared_brick"
+    },
+    {
+      "item": "tconstruct:seared_brick"
+    },
+    {
+      "item": "redstone"
+    },
+    {
+      "item": "redstone"
+    },
+    {
+      "item": "redstone"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 125
+    }
+  ],
+  "heatRequirement": "heated"
+}

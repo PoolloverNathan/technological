@@ -3,13 +3,18 @@
   "ingredients": [
     {
       "item": "smooth_stone"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 125
     }
   ],
   "results": [
     {
       "fluid": "minecraft:lava",
       "nbt": {},
-      "amount": 50
+      "amount": 250
     }
   ],
   "heatRequirement": "heated"
